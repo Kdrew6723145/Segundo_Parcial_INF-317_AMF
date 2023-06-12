@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-9UOFJ78.SamarImportadora.sa"
+  DTS:DTSID="{F5FAB684-693E-41CE-8B88-6CD9062F3AC9}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=DESKTOP-9UOFJ78;User ID=sa;Initial Catalog=SamarImportadora;Application Name=SSIS-Ejercicio1_317-{F5FAB684-693E-41CE-8B88-6CD9062F3AC9}DESKTOP-9UOFJ78.SamarImportadora.sa;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA1NE5fjwaC0qZiqxOtdbF9QAAAAACAAAAAAAQZgAAAAEAACAAAAAxt80iMi14VF8nRxo+dJJtGkBNVVC+apcmpsWN9AcsaAAAAAAOgAAAAAIAACAAAAAXyp+tAcdBCIRqNIl3j2aaIbdLKrl+2JZvYb3p/kyKu4AAAAA56mnL3A2I3opjaXBFauygCohcw93W9w+AO6ZWS/BFmU1+MA+0RLWYFRx40HBoPN6pMdocQUMMM/2kOYVBP37BULxgMknRyvVlp9Oa/u9GmWcUaAy6DE1rZJxqtXG6p0+w0bQ3t0Igtggj9T4uaGS+H0J3mzX87L+/BeskilIP/EAAAACNTRRCC2z5PiTyid/X94TDSOTaL72FF3xQHh9jWsZZRp64NOqDLZUmw/Ja9etT2qxU4vWybUX5DbM7PR8lL4mA</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
