@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>TestCuboOlap</Database>
+    <Server>DESKTOP-9UOFJ78\KDREW</Server>
+    <ConnectionString>Data Source=DESKTOP-9UOFJ78\KDREW;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>Cuio6GmKno2Zx23AEtcUNLsI6As=12/6/2023 14:13:1212/6/2023 14:13:12</TimeStamp>
+        <ID>
+          <String>DW Samar Importadora</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>DAnARbrKZ3bdgMHRsPPadq82dC8=12/6/2023 14:14:5412/6/2023 14:14:53</TimeStamp>
+        <ID>
+          <String>DW Samar Importadora</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>IAG5vx8GPMrwmyht7Wc0jWOqvts=12/6/2023 14:22:1212/6/2023 14:16:00</TimeStamp>
+        <ID>
+          <String>DIM CLIENTE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1+LHz8/M0IV3iRGpm6Y1fz0JEXw=12/6/2023 14:24:0512/6/2023 14:16:00</TimeStamp>
+        <ID>
+          <String>DIM PRODUCTO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9qAAU0UjenupSCWFTeS3GH/V17c=12/6/2023 14:24:4212/6/2023 14:16:00</TimeStamp>
+        <ID>
+          <String>DIM SUCURSAL</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0HC4/Mui7Yak2zRXnBdpluLyDAE=12/6/2023 14:42:3712/6/2023 14:16:00</TimeStamp>
+        <ID>
+          <String>DIM VENDEDOR</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>MckUCHBdONtMsWQpEeIAcfDVxW0=12/6/2023 14:25:0312/6/2023 14:16:00m6W93Jjb3wx3y7Nuto9CfcmNCro=12/6/2023 14:16:0112/6/2023 14:16:00</TimeStamp>
+        <ID>
+          <String>DW Samar Importadora</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>6TkpeS4nMVvkedH1aucCH96AUfk=12/6/2023 14:04:0312/6/2023 14:04:03</TimeStamp>
+      <ID>
+        <String>TestCuboOlap</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-06-12T20:02:00.87Z</LastDeployed>
+</DeploymentSnapshot>
