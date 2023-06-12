@@ -1,0 +1,11 @@
+51;Carolina Diaz;Capacitación Online;15
+52;Agustin Ibarra;Capacitación Semipresencial;40
+53;Juan Velmonte;Capacitación Semipresencial;10
+54;Felipe AM;Capacitación en Institución;64
+55;Julian Alvarez;Capacitación En Sucursal;9
+56;Isabella Yáñez;Capacitación Online;98
+57;Colomba Morales;Capacitación Semipresencial;30
+58;Renata Godoy;Capacitación En Sucursal;40
+59;Thomas Alvarado;Capacitación Semipresencial;70
+60;Gonzalo Castro;Capacitación Online;12
+61;Paula Vargas;Capacitación Semipresencial;10

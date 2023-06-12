@@ -1,0 +1,2013 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="6/10/2023 5:14:26 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-9UOFJ78"
+  DTS:CreatorName="DESKTOP-9UOFJ78\MARIA"
+  DTS:DTSID="{35B62A20-AC95-4D57-ABBD-29FC95E76D2D}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5223.0"
+  DTS:LocaleID="16394"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="15"
+  DTS:VersionGUID="{5709AFB0-1D95-4F9E-9A7B-675F92AD882C}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ConexionArchivoSucursal]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{7F81613F-62AE-404A-B640-20C4684CE067}"
+      DTS:ObjectName="ConexionArchivoSucursal">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="16394"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\MARIA\source\repos\Ejercicio3_INF317\SucursalReg.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="24"
+              DTS:DTSID="{32292C67-9615-4A72-AFA3-BBB1E174AD23}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sucursal La Luna"
+              DTS:DTSID="{9B6042D5-D64A-4538-A1AB-8FF0705D0CF5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="La luna"
+              DTS:DTSID="{2D9FBD89-68D2-4B4D-8E3E-698682704DAA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Oruro"
+              DTS:DTSID="{76741710-F6AD-4797-BE8F-2DD17AAEC571}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="RegiÃ³n Metropolitana de Oruro"
+              DTS:DTSID="{387D14D9-E798-4ABA-8DEB-FF1A3104B962}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ConexionBD]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{C1725C0B-AD1C-4EDB-BD14-97281CF95054}"
+      DTS:ObjectName="ConexionBD">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="16394"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\MARIA\source\repos\Ejercicio3_INF317\ClienteAdd.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CLI00001"
+              DTS:DTSID="{61A8EB85-88F9-41A2-AF6C-9EBCECFFF454}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Fabián   Poblete"
+              DTS:DTSID="{41DC967B-91EF-40BD-9E5F-56500CD26755}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="44"
+              DTS:DTSID="{F7E7910A-C8AB-449B-96B0-35706D389177}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Casado"
+              DTS:DTSID="{91691824-A0BB-4EEA-9E0E-24D02656380C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName=" Buchupureo "
+              DTS:DTSID="{81DAE1E0-7076-43D4-9AD6-4D2A5DD82252}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName=" Puerto Montt "
+              DTS:DTSID="{5C109DE6-C7F8-4829-9B84-D16042478947}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ConexionClientesRegistros]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{08061819-CDFD-48AC-89EB-2DC42D872449}"
+      DTS:ObjectName="ConexionClientesRegistros">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="16394"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\MARIA\source\repos\Ejercicio3_INF317\ClienteReg.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CLI00001"
+              DTS:DTSID="{A53C00DE-47C4-446F-A003-57324930460F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Fabián   Poblete"
+              DTS:DTSID="{C5312FEE-C1E4-4EA4-9B17-992992E6C1AE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="44"
+              DTS:DTSID="{D24F7583-D3F5-401B-ADFF-5CE63494DDD0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Casado"
+              DTS:DTSID="{72B5067C-242B-418F-9AC1-ABA9262697D9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName=" Buchupureo "
+              DTS:DTSID="{8F8C654B-59CD-422E-A774-1C11F69E65C6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName=" Puerto Montt "
+              DTS:DTSID="{8191DBCF-A60D-4F2B-A631-9E235A6A10F4}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ConexionProducto]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{F25EC90A-CF9E-47E0-AA72-EE7CAD83A304}"
+      DTS:ObjectName="ConexionProducto">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="16394"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\MARIA\source\repos\Ejercicio3_INF317\ProductosReg.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Comino en Polvo Maggie"
+              DTS:DTSID="{CA158211-2D83-4ADE-93F9-CF1BECB347B8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="10"
+              DTS:DTSID="{1D66C263-2E4D-446C-A32D-F9C8E1230342}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="1500"
+              DTS:DTSID="{47B4603C-E442-4A0A-81D3-10D0375C82BE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Condimentos"
+              DTS:DTSID="{FB0219C6-8332-4396-BADC-A0B81292D696}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ART0078"
+              DTS:DTSID="{51911468-E03F-45E2-ADCA-E302A0546F08}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ConexionVendedorTXt]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{3A97C29E-AAA8-4B85-9FD5-D4D3BAE29C4D}"
+      DTS:ObjectName="ConexionVendedorTXt">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="16394"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\MARIA\source\repos\Ejercicio3_INF317\VendedoresReg.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="51"
+              DTS:DTSID="{9CB8B3BB-09C6-4730-9D13-010EF77BD560}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Carolina Diaz"
+              DTS:DTSID="{647E981E-9B93-449C-BA17-DE437281792C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CapacitaciÃ³n Online"
+              DTS:DTSID="{A7D69CB2-FC7E-4440-8799-A50E06060608}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="15"
+              DTS:DTSID="{A1FB28DE-94C9-4396-A73B-DCD389DF7F86}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-9UOFJ78.DW_SamarImportadora.sa]"
+      DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{237604F4-0148-40D2-8972-6F39FEE46BA4}"
+      DTS:ObjectName="DESKTOP-9UOFJ78.DW_SamarImportadora.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-9UOFJ78;User ID=sa;Initial Catalog=DW_SamarImportadora;Application Name=SSIS-Package-{237604F4-0148-40D2-8972-6F39FEE46BA4}DESKTOP-9UOFJ78.DW_SamarImportadora.sa;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA1NE5fjwaC0qZiqxOtdbF9QAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAvoSWkFuUjNa9DYzzhPZxWAFXHGr52FoltS9JOH4UhdQAAAAAOgAAAAAIAACAAAADagcW87DGOlu8BfI3bajibPc19YVz9RmqeVGt4na3vgxAAAAD68JvQWuOIE2SZvIK7lx1pQAAAAHrU/kUMbc2gzn9dbYo46+pNlBWkiKb+to5whhEM7UVUIS7QNOjJAzKgt9hVnVSzsrulLIvYybL2DZv5Pt6NiaA</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Tarea Flujo de datos"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tarea Flujo de datos"
+      DTS:DTSID="{001C8AA4-82AB-4BE1-8BA8-68FCF915040E}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Tarea Flujo de datos"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Origen de archivo plano;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;1"
+              description="Origen de archivo plano"
+              localeId="16394"
+              name="Cargar_Dim_Cliente_TXT"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Especifica si las columnas de longitud cero se tratan como NULL."
+                  name="RetainNulls">true</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre de una columna de salida que contiene el nombre de archivo. Si no se especifica ningún nombre, no se genera ninguna columna de salida con el nombre de archivo."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[ConexionClientesRegistros]"
+                  connectionManagerRefId="Package.ConnectionManagers[ConexionClientesRegistros]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano]"
+                  name="Salida de origen de archivo plano">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].Columns[CLI00001]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[CLI00001]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].Columns[CLI00001]"
+                      name="CLI00001"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].Columns[Fabián   Poblete]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[Fabián   Poblete]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].Columns[Fabián   Poblete]"
+                      name="Fabián   Poblete"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].Columns[44]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[44]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].Columns[44]"
+                      name="44"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].Columns[Casado]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[Casado]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].Columns[Casado]"
+                      name="Casado"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].Columns[ Buchupureo ]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[ Buchupureo ]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].Columns[ Buchupureo ]"
+                      name=" Buchupureo "
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].Columns[ Puerto Montt ]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[ Puerto Montt ]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].Columns[ Puerto Montt ]"
+                      name=" Puerto Montt "
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[CLI00001]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="CLI00001" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[Fabián   Poblete]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Fabián   Poblete" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[44]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="44" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[Casado]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Casado" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[ Buchupureo ]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name=" Buchupureo " />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[ Puerto Montt ]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name=" Puerto Montt " />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de error de origen de archivo plano]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de archivo plano">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de error de origen de archivo plano].Columns[Columna de salida de error de origen de archivo plano]"
+                      codePage="65001"
+                      dataType="text"
+                      description="Columna de salida de error de origen de archivo plano"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de error de origen de archivo plano].Columns[Columna de salida de error de origen de archivo plano]"
+                      name="Columna de salida de error de origen de archivo plano" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de error de origen de archivo plano].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de error de origen de archivo plano].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de error de origen de archivo plano].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de error de origen de archivo plano].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Origen de archivo plano;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;1"
+              description="Origen de archivo plano"
+              localeId="16394"
+              name="Cargar_Dim_Producto_TXT"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Especifica si las columnas de longitud cero se tratan como NULL."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre de una columna de salida que contiene el nombre de archivo. Si no se especifica ningún nombre, no se genera ninguna columna de salida con el nombre de archivo."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[ConexionProducto]"
+                  connectionManagerRefId="Package.ConnectionManagers[ConexionProducto]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano]"
+                  name="Salida de origen de archivo plano">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].Columns[Comino en Polvo Maggie]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[Comino en Polvo Maggie]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].Columns[Comino en Polvo Maggie]"
+                      name="Comino en Polvo Maggie"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].Columns[10]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[10]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].Columns[10]"
+                      name="10"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].Columns[1500]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[1500]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].Columns[1500]"
+                      name="1500"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].Columns[Condimentos]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[Condimentos]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].Columns[Condimentos]"
+                      name="Condimentos"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].Columns[ART0078]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[ART0078]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].Columns[ART0078]"
+                      name="ART0078"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[Comino en Polvo Maggie]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Comino en Polvo Maggie" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[10]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="10" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[1500]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="1500" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[Condimentos]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Condimentos" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[ART0078]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="ART0078" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de error de origen de archivo plano]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de archivo plano">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de error de origen de archivo plano].Columns[Columna de salida de error de origen de archivo plano]"
+                      codePage="65001"
+                      dataType="text"
+                      description="Columna de salida de error de origen de archivo plano"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de error de origen de archivo plano].Columns[Columna de salida de error de origen de archivo plano]"
+                      name="Columna de salida de error de origen de archivo plano" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de error de origen de archivo plano].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de error de origen de archivo plano].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de error de origen de archivo plano].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de error de origen de archivo plano].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Origen de archivo plano;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;1"
+              description="Origen de archivo plano"
+              localeId="16394"
+              name="Cargar_Dim_Sucursal_TXT"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Especifica si las columnas de longitud cero se tratan como NULL."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre de una columna de salida que contiene el nombre de archivo. Si no se especifica ningún nombre, no se genera ninguna columna de salida con el nombre de archivo."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[ConexionArchivoSucursal]"
+                  connectionManagerRefId="Package.ConnectionManagers[ConexionArchivoSucursal]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano]"
+                  name="Salida de origen de archivo plano">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].Columns[24]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[24]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].Columns[24]"
+                      name="24"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].Columns[Sucursal La Luna]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[Sucursal La Luna]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].Columns[Sucursal La Luna]"
+                      name="Sucursal La Luna"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].Columns[La luna]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[La luna]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].Columns[La luna]"
+                      name="La luna"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].Columns[Oruro]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[Oruro]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].Columns[Oruro]"
+                      name="Oruro"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].Columns[RegiÃ³n Metropolitana de Oruro]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[RegiÃ³n Metropolitana de Oruro]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].Columns[RegiÃ³n Metropolitana de Oruro]"
+                      name="RegiÃ³n Metropolitana de Oruro"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[24]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="24" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[Sucursal La Luna]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Sucursal La Luna" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[La luna]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="La luna" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[Oruro]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Oruro" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[RegiÃ³n Metropolitana de Oruro]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="RegiÃ³n Metropolitana de Oruro" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de error de origen de archivo plano]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de archivo plano">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de error de origen de archivo plano].Columns[Columna de salida de error de origen de archivo plano]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Columna de salida de error de origen de archivo plano"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de error de origen de archivo plano].Columns[Columna de salida de error de origen de archivo plano]"
+                      name="Columna de salida de error de origen de archivo plano" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de error de origen de archivo plano].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de error de origen de archivo plano].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de error de origen de archivo plano].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de error de origen de archivo plano].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Origen de archivo plano;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;1"
+              description="Origen de archivo plano"
+              localeId="16394"
+              name="Cargar_Dim_Vendedor_TXT"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Especifica si las columnas de longitud cero se tratan como NULL."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre de una columna de salida que contiene el nombre de archivo. Si no se especifica ningún nombre, no se genera ninguna columna de salida con el nombre de archivo."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[ConexionVendedorTXt]"
+                  connectionManagerRefId="Package.ConnectionManagers[ConexionVendedorTXt]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano]"
+                  name="Salida de origen de archivo plano">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano].Columns[51]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[51]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano].Columns[51]"
+                      name="51"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano].Columns[Carolina Diaz]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[Carolina Diaz]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano].Columns[Carolina Diaz]"
+                      name="Carolina Diaz"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano].Columns[CapacitaciÃ³n Online]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[CapacitaciÃ³n Online]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano].Columns[CapacitaciÃ³n Online]"
+                      name="CapacitaciÃ³n Online"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano].Columns[15]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[15]"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano].Columns[15]"
+                      name="15"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si los datos están en formato binario."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[51]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="51" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[Carolina Diaz]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="Carolina Diaz" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[CapacitaciÃ³n Online]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="CapacitaciÃ³n Online" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano].ExternalColumns[15]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="15" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de error de origen de archivo plano]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de archivo plano">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de error de origen de archivo plano].Columns[Columna de salida de error de origen de archivo plano]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Columna de salida de error de origen de archivo plano"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de error de origen de archivo plano].Columns[Columna de salida de error de origen de archivo plano]"
+                      name="Columna de salida de error de origen de archivo plano" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de error de origen de archivo plano].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de error de origen de archivo plano].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de error de origen de archivo plano].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de error de origen de archivo plano].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\Destino de ADO NET"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;2"
+              description="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC."
+              name="Destino de ADO NET"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Nombre de la tabla de la base de datos de destino."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."DIM_CLIENTE"</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifique el número de filas por lote. El valor predeterminado es 0, que utiliza el mismo tamaño que el búfer interno de SSIS. "
+                  expressionType="Notify"
+                  name="BatchSize">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito. "
+                  expressionType="Notify"
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Especifica si se debe usar la interfaz SqlBulkCopy para mejorar el rendimiento de las operaciones de inserción masiva. No todos los proveedores admiten esta interfaz."
+                  expressionType="Notify"
+                  name="UseBulkInsertWhenPossible">true</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.ADONETDestination</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\Destino de ADO NET.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-9UOFJ78.DW_SamarImportadora.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-9UOFJ78.DW_SamarImportadora.sa]"
+                  description="Administrador de conexiones administrado"
+                  name="IDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET]"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de ADO NET">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[CLI00001]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="CLI00001"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[ID_CLIENTE]"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].Columns[CLI00001]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Fabián   Poblete]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Fabián   Poblete"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[NOMBRE_COMPLETO]"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].Columns[Fabián   Poblete]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Casado]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Casado"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[ESTADO_CIVIL]"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].Columns[Casado]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[44]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="44"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[EDAD]"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].Columns[44]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[ Puerto Montt ]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName=" Puerto Montt "
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[ORIGEN]"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano].Columns[ Puerto Montt ]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[ID_CLIENTE]"
+                      dataType="wstr"
+                      length="255"
+                      name="ID_CLIENTE" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[NOMBRE_COMPLETO]"
+                      dataType="wstr"
+                      length="255"
+                      name="NOMBRE_COMPLETO" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[ESTADO_CIVIL]"
+                      dataType="wstr"
+                      length="255"
+                      name="ESTADO_CIVIL" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[ANO_NACIMEINTO]"
+                      dataType="i4"
+                      name="ANO_NACIMEINTO" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[EDAD]"
+                      dataType="i2"
+                      name="EDAD" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[ORIGEN]"
+                      dataType="wstr"
+                      length="255"
+                      name="ORIGEN" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de ADO NET"
+                  synchronousInputId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\Destino de ADO NET 1"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;2"
+              description="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC."
+              name="Destino de ADO NET 1"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Nombre de la tabla de la base de datos de destino."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."DIM_VENDEDOR"</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifique el número de filas por lote. El valor predeterminado es 0, que utiliza el mismo tamaño que el búfer interno de SSIS. "
+                  expressionType="Notify"
+                  name="BatchSize">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito. "
+                  expressionType="Notify"
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Especifica si se debe usar la interfaz SqlBulkCopy para mejorar el rendimiento de las operaciones de inserción masiva. No todos los proveedores admiten esta interfaz."
+                  expressionType="Notify"
+                  name="UseBulkInsertWhenPossible">true</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.ADONETDestination</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-9UOFJ78.DW_SamarImportadora.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-9UOFJ78.DW_SamarImportadora.sa]"
+                  description="Administrador de conexiones administrado"
+                  name="IDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Inputs[Entrada de destino de ADO NET]"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de ADO NET">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Inputs[Entrada de destino de ADO NET].Columns[51]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="51"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Inputs[Entrada de destino de ADO NET].ExternalColumns[ID_VENDEDOR]"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano].Columns[51]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Inputs[Entrada de destino de ADO NET].Columns[Carolina Diaz]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Carolina Diaz"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Inputs[Entrada de destino de ADO NET].ExternalColumns[NOMBRE_COMPLETO]"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano].Columns[Carolina Diaz]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Inputs[Entrada de destino de ADO NET].Columns[CapacitaciÃ³n Online]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="CapacitaciÃ³n Online"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Inputs[Entrada de destino de ADO NET].ExternalColumns[TIPO_CAPACITACION]"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano].Columns[CapacitaciÃ³n Online]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Inputs[Entrada de destino de ADO NET].Columns[15]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="15"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Inputs[Entrada de destino de ADO NET].ExternalColumns[HORAS_CAPACITACION]"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano].Columns[15]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Inputs[Entrada de destino de ADO NET].ExternalColumns[ID_VENDEDOR]"
+                      dataType="i2"
+                      name="ID_VENDEDOR" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Inputs[Entrada de destino de ADO NET].ExternalColumns[NOMBRE_COMPLETO]"
+                      dataType="wstr"
+                      length="255"
+                      name="NOMBRE_COMPLETO" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Inputs[Entrada de destino de ADO NET].ExternalColumns[TIPO_CAPACITACION]"
+                      dataType="wstr"
+                      length="255"
+                      name="TIPO_CAPACITACION" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Inputs[Entrada de destino de ADO NET].ExternalColumns[HORAS_CAPACITACION]"
+                      dataType="i2"
+                      name="HORAS_CAPACITACION" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Outputs[Salida de error de destino de ADO NET]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de ADO NET"
+                  synchronousInputId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Inputs[Entrada de destino de ADO NET]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\Destino de ADO NET 2"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;2"
+              description="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC."
+              name="Destino de ADO NET 2"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Nombre de la tabla de la base de datos de destino."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."DIM_SUCURSAL"</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifique el número de filas por lote. El valor predeterminado es 0, que utiliza el mismo tamaño que el búfer interno de SSIS. "
+                  expressionType="Notify"
+                  name="BatchSize">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito. "
+                  expressionType="Notify"
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Especifica si se debe usar la interfaz SqlBulkCopy para mejorar el rendimiento de las operaciones de inserción masiva. No todos los proveedores admiten esta interfaz."
+                  expressionType="Notify"
+                  name="UseBulkInsertWhenPossible">true</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.ADONETDestination</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-9UOFJ78.DW_SamarImportadora.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-9UOFJ78.DW_SamarImportadora.sa]"
+                  description="Administrador de conexiones administrado"
+                  name="IDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET]"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de ADO NET">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].Columns[24]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="24"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[ID_SUCURSAL]"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].Columns[24]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].Columns[Sucursal La Luna]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Sucursal La Luna"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[NOMBRE_SUCURSAL]"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].Columns[Sucursal La Luna]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].Columns[La luna]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="La luna"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[COMUNA]"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].Columns[La luna]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].Columns[Oruro]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Oruro"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[PROVINCIA]"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].Columns[Oruro]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].Columns[RegiÃ³n Metropolitana de Oruro]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="RegiÃ³n Metropolitana de Oruro"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[REGION]"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano].Columns[RegiÃ³n Metropolitana de Oruro]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[ID_SUCURSAL]"
+                      dataType="i2"
+                      name="ID_SUCURSAL" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[NOMBRE_SUCURSAL]"
+                      dataType="wstr"
+                      length="255"
+                      name="NOMBRE_SUCURSAL" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[COMUNA]"
+                      dataType="wstr"
+                      length="255"
+                      name="COMUNA" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[PROVINCIA]"
+                      dataType="wstr"
+                      length="255"
+                      name="PROVINCIA" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET].ExternalColumns[REGION]"
+                      dataType="wstr"
+                      length="255"
+                      name="REGION" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Outputs[Salida de error de destino de ADO NET]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de ADO NET"
+                  synchronousInputId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\Destino de ADO NET 3"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;2"
+              description="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC."
+              name="Destino de ADO NET 3"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Nombre de la tabla de la base de datos de destino."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."DIM_PRODUCTO"</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifique el número de filas por lote. El valor predeterminado es 0, que utiliza el mismo tamaño que el búfer interno de SSIS. "
+                  expressionType="Notify"
+                  name="BatchSize">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito. "
+                  expressionType="Notify"
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Especifica si se debe usar la interfaz SqlBulkCopy para mejorar el rendimiento de las operaciones de inserción masiva. No todos los proveedores admiten esta interfaz."
+                  expressionType="Notify"
+                  name="UseBulkInsertWhenPossible">true</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.ADONETDestination</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-9UOFJ78.DW_SamarImportadora.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-9UOFJ78.DW_SamarImportadora.sa]"
+                  description="Administrador de conexiones administrado"
+                  name="IDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET]"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de ADO NET">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].Columns[ART0078]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ART0078"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[ID_PRODUCTO]"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].Columns[ART0078]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].Columns[Comino en Polvo Maggie]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Comino en Polvo Maggie"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[NOMBRE]"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].Columns[Comino en Polvo Maggie]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].Columns[Condimentos]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Condimentos"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[CATEGORIA]"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].Columns[Condimentos]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].Columns[10]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="10"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[PRECIO_UNITARIO]"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].Columns[10]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].Columns[1500]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="1500"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[COSTO_UNITARIO]"
+                      lineageId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano].Columns[1500]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[ID_PRODUCTO]"
+                      dataType="wstr"
+                      length="255"
+                      name="ID_PRODUCTO" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[NOMBRE]"
+                      dataType="wstr"
+                      length="255"
+                      name="NOMBRE" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[CATEGORIA]"
+                      dataType="wstr"
+                      length="255"
+                      name="CATEGORIA" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[PRECIO_UNITARIO]"
+                      dataType="i4"
+                      name="PRECIO_UNITARIO" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET].ExternalColumns[COSTO_UNITARIO]"
+                      dataType="i4"
+                      name="COSTO_UNITARIO" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Outputs[Salida de error de destino de ADO NET]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de ADO NET"
+                  synchronousInputId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[Salida de origen de archivo plano]"
+              endId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET]"
+              name="Salida de origen de archivo plano"
+              startId="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT.Outputs[Salida de origen de archivo plano]" />
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[Salida de origen de archivo plano1]"
+              endId="Package\Tarea Flujo de datos\Destino de ADO NET 1.Inputs[Entrada de destino de ADO NET]"
+              name="Salida de origen de archivo plano"
+              startId="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT.Outputs[Salida de origen de archivo plano]" />
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[Salida de origen de archivo plano2]"
+              endId="Package\Tarea Flujo de datos\Destino de ADO NET 2.Inputs[Entrada de destino de ADO NET]"
+              name="Salida de origen de archivo plano"
+              startId="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT.Outputs[Salida de origen de archivo plano]" />
+            <path
+              refId="Package\Tarea Flujo de datos.Paths[Salida de origen de archivo plano3]"
+              endId="Package\Tarea Flujo de datos\Destino de ADO NET 3.Inputs[Entrada de destino de ADO NET]"
+              name="Salida de origen de archivo plano"
+              startId="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT.Outputs[Salida de origen de archivo plano]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="173.6,41.6"
+          Id="Package\Tarea Flujo de datos"
+          TopLeft="249.999986340603,157.733332236476" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Tarea Flujo de datos">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="185.6,41.6"
+          Id="Package\Tarea Flujo de datos\Destino de ADO NET 2"
+          TopLeft="548.333303373722,213.199998517434" />
+        <NodeLayout
+          Size="210.4,41.6"
+          Id="Package\Tarea Flujo de datos\Cargar_Dim_Vendedor_TXT"
+          TopLeft="313.333316213556,62.3999995660782" />
+        <NodeLayout
+          Size="185.6,41.6"
+          Id="Package\Tarea Flujo de datos\Destino de ADO NET 1"
+          TopLeft="291.666650730703,218.399998481274" />
+        <NodeLayout
+          Size="198.4,41.6"
+          Id="Package\Tarea Flujo de datos\Cargar_Dim_Cliente_TXT"
+          TopLeft="56.1666801679459,61.399998961091" />
+        <NodeLayout
+          Size="206.4,41.6"
+          Id="Package\Tarea Flujo de datos\Cargar_Dim_Sucursal_TXT"
+          TopLeft="585.833301324813,62.3999995660782" />
+        <NodeLayout
+          Size="176.8,41.6"
+          Id="Package\Tarea Flujo de datos\Destino de ADO NET"
+          TopLeft="61.0000135948258,215.733330029116" />
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de origen de archivo plano2]"
+          TopLeft="689.033301324813,103.999999566078">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-47.8999979510905,109.199998951356"
+              Start="0,0"
+              End="-47.8999979510905,101.699998951356">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,50.5999994756779" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,50.5999994756779"
+                    Point2="0,54.5999994756779"
+                    Point3="-4,54.5999994756779" />
+                  <mssgle:LineSegment
+                    End="-43.8999979510905,54.5999994756779" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-43.8999979510905,54.5999994756779"
+                    Point2="-47.8999979510905,54.5999994756779"
+                    Point3="-47.8999979510905,58.5999994756779" />
+                  <mssgle:LineSegment
+                    End="-47.8999979510905,101.699998951356" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de origen de archivo plano1]"
+          TopLeft="418.533316213556,103.999999566078">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-34.0666654828523,114.399998915196"
+              Start="0,0"
+              End="-34.0666654828523,106.899998915196">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,53.1999994575978" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,53.1999994575978"
+                    Point2="0,57.1999994575978"
+                    Point3="-4,57.1999994575978" />
+                  <mssgle:LineSegment
+                    End="-30.0666654828523,57.1999994575978" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-30.0666654828523,57.1999994575978"
+                    Point2="-34.0666654828523,57.1999994575978"
+                    Point3="-34.0666654828523,61.1999994575978" />
+                  <mssgle:LineSegment
+                    End="-34.0666654828523,106.899998915196" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de origen de archivo plano]"
+          TopLeft="152.383346881386,102.999998961091">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,112.733331068025"
+              Start="0,0"
+              End="0,105.233331068025">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,105.233331068025" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="207.2,41.6"
+          Id="Package\Tarea Flujo de datos\Cargar_Dim_Producto_TXT"
+          TopLeft="856.249953216565,58.4999995931983" />
+        <NodeLayout
+          Size="185.6,41.6"
+          Id="Package\Tarea Flujo de datos\Destino de ADO NET 3"
+          TopLeft="821.374955777702,216.666665159994" />
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de origen de archivo plano3]"
+          TopLeft="959.849953216565,100.099999593198">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-45.6749974388631,116.566665566795"
+              Start="0,0"
+              End="-45.6749974388631,109.066665566795">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,54.2833327833977" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,54.2833327833977"
+                    Point2="0,58.2833327833977"
+                    Point3="-4,58.2833327833977" />
+                  <mssgle:LineSegment
+                    End="-41.6749974388631,58.2833327833977" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-41.6749974388631,58.2833327833977"
+                    Point2="-45.6749974388631,58.2833327833977"
+                    Point3="-45.6749974388631,62.2833327833977" />
+                  <mssgle:LineSegment
+                    End="-45.6749974388631,109.066665566795" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Tarea Flujo de datos\Destino de ADO NET 2">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Tarea Flujo de datos\Destino de ADO NET 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Tarea Flujo de datos\Destino de ADO NET">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Tarea Flujo de datos\Destino de ADO NET 3">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

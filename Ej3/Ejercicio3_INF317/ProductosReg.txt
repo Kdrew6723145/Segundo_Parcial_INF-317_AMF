@@ -1,0 +1,6 @@
+Comino en Polvo Maggie;10;1500;Condimentos;ART0078
+Fernet Brnaca;750;18500;Bebidas;ART0079
+Cerveza Paceña;891;495;Bebidas;ART0080
+Cabeza de Lechuga(1 kg);1800;1000;Frutas/Verduras;ART0081
+Pejerrey;563;313;Pescado/Marisco;ART0082
+Yogurt Pil;1305;725;Lácteos;ART0083

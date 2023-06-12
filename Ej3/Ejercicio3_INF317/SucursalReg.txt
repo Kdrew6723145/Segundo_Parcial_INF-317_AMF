@@ -1,0 +1,5 @@
+24;Sucursal La Luna;La luna;Oruro;Región Metropolitana de Oruro
+25;Sucursal Las Cariñosas;Las Condes;Santiago;Region de Los Andes
+26;Sucursal Noa Noa;Ñuñoa;Santiago;Región de Valle Visto
+27;Sucursal Matias II;Providencia;Ibague;Region de LuriBay
+28;Sucursal Valle Grande;Valdivia;Valdivia;Bella Vista

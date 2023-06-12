@@ -1,0 +1,1000 @@
+﻿CLI00001;Fabián   Poblete;44;Casado; Buchupureo ; Puerto Montt 
+CLI00002;Gonzalo   Contreras;45;Casado; Santa Juana ; Maitencillo 
+CLI00003;Antonia   Herrera;46;Soltero; Niebla ; Puerto Pirihueico 
+CLI00004;Pedro   Rodríguez;46;Casado; El Melocotón ; Llicaldad 
+CLI00005;Camila   Olivares;23;Divorciado; Las Cruces ; Iloca
+CLI00006;Vicente   Pino;21;Viudo; Las Trincheras ; Río Bueno 
+CLI00007;Emily   Henríquez;32;Divorciado; Isla R. Crusoe (Juan Fernández) ; Mehuín 
+CLI00008;Laura   Núñez;37;Divorciado; Pedregal ; Santa Olga 
+CLI00009;Montserrat   Romero;31;Viudo;Lontué ; Puerto Cárdenas 
+CLI00010;Amalia   Maldonado;24;Viudo;El Guayacán ;Alcohuaz 
+CLI00011;Sebastián   Godoy;40;Casado; Río Puelo ; Mamiña 
+CLI00012;Florencia   Jara;30;Viudo; Chanavayita ; Pedregal 
+CLI00013;Jorge   Navarrete;40;Casado; El Boyenar ; Quenuir 
+CLI00014;Isidora   Castillo;27;Casado;La Laguna ; Vilches 
+CLI00015;Claudio   Salinas;50;Casado; Molco ;Rivadavia 
+CLI00016;Cristián   Olivares;21;Divorciado; Las Cruces ; Futrono 
+CLI00017;Carla   Espinoza;24;Casado; Puerto Cárdenas ; Constitución 
+CLI00018;Anahís   Guzmán;33;Casado; Piruquina ; Isla de Maipo 
+CLI00019;Clemente   Vergara;50;Soltero;Puertecillo ; Puente Negro 
+CLI00020;Amaro   Vargas;47;Divorciado; Los Molinos ; Caldera 
+CLI00021;Belén   Lagos;27;Viudo; Bahia Inglesa ;Puerto Saavedra 
+CLI00022;Dafne   Vidal;34;Casado; Puerto Bertrand ; Recinto 
+CLI00023;Laura   Escobar;35;Viudo; Iquique ; Buchupureo 
+CLI00024;Miguel   Tapia;20;Soltero; Piruquina ; Limache 
+CLI00025;Noelia   Rivera;35;Divorciado; Ancud ; Caldera 
+CLI00026;Bárbara   Valdés;21;Divorciado;Las Trancas (Termas de Chillán) ; Quillota 
+CLI00027;Baltazar   Martínez;39;Divorciado; Puyuhuapi ; Tulahuén 
+CLI00028;Alfonso   Zúñiga;25;Soltero; Puerto Pirihueico ; San José de Maipo 
+CLI00029;Dylan   Castro;38;Soltero; Punta Arenas ; Puerto Bertrand 
+CLI00030;Ema   Carrasco;34;Viudo; Puerto Cisnes ; La Tirana 
+CLI00031;Josué   Sáez;39;Divorciado;Puerto Guadal ; Villa O'Higgins 
+CLI00032;Gaspar  Soto;25;Casado; Recinto ; Isla R. Crusoe (Juan Fernández) 
+CLI00033;Dominique   Bravo;33;Casado; Coñaripe ; Puerto Cárdenas 
+CLI00034;Leonor   García;26;Soltero; Catripulli ; San Pedro De Atacama
+CLI00035;Ema   Ortiz;48;Casado; Curacautín ; Saltos del Laja 
+CLI00036;Valentina   Rodríguez;49;Viudo; Cochiguaz ; El Quisco 
+CLI00037;Emma   Valenzuela;26;Soltero; San Fabián de Alico ; El Manzano 
+CLI00038;Francisca   Farías;42;Viudo; Hornopirén ;Puertecillo 
+CLI00039;Trinidad   Vargas;24;Soltero; Santa Olga ; Los Molinos 
+CLI00040;Facundo   Figueroa;23;Viudo; Puerto Cárdenas ; Chile Chico 
+CLI00041;Maite   Jara;43;Viudo; Vichuquén ; El Médano 
+CLI00042;Joaquín   Hernández;46;Divorciado; Alto del Carmen ; Huasco 
+CLI00043;Aaron   Lagos;37;Soltero; Los Molles ; Juan Lopez 
+CLI00044;Javiera   Escobar;32;Soltero; Chile Chico ;Metri 
+CLI00045;Julián   Campos;30;Divorciado;Cahuil ; Tongoy 
+CLI00046;Matías   Valdés;42;Soltero; Ritoque ; Puerto Varas 
+CLI00047;Carolina   Rivera;32;Casado; Isla Negra ; Cunco 
+CLI00048;Sebastián   Miranda;21;Viudo; Pozo Almonte ; Las Trincheras 
+CLI00049;Leonor   García;22;Viudo; Lago Ranco ; Nercón 
+CLI00050;Martina   Hernández;41;Viudo; Chile Chico ; Pichilemu 
+CLI00051;Juan   Fuentes;20;Divorciado; Puerto Ingeniero Ibáñez ; Catripulli 
+CLI00052;Luciano   Escobar;50;Viudo; Rinconada ; Termas del Flaco 
+CLI00053;Victoria   Rivera;19;Casado; Pisco Elqui ; Freire 
+CLI00054;Isabella   Álvarez;46;Casado; Punta De Tralca ;Coquimbo 
+CLI00055;Daniel   Gutiérrez;37;Casado; Angol ; Castro 
+CLI00056;Esperanza   Bravo;33;Divorciado; Caburga ; Mamiña 
+CLI00057;Victoria   Navarrete;47;Divorciado; San Félix ; Villa Alemana
+CLI00058;Alex   Vargas;35;Casado; Cunco ; San Fabián de Alico 
+CLI00059;Antonela   Figueroa;37;Viudo;Puerto Guadal ; Talca 
+CLI00060;Colomba   Palma;45;Soltero; Puerto Natales ; Valdivia 
+CLI00061;Facundo   Reyes;44;Soltero; Villa O'Higgins ; Santa Olga 
+CLI00062;Leonor   Valdés;33;Divorciado; Ancud ; Coronel 
+CLI00063;Lucas   Alarcón;39;Divorciado; Río Puelo ; Huasco 
+CLI00064;Elisa   Núñez;49;Divorciado; El Melocotón ; Los Vilos 
+CLI00065;Trinidad   Figueroa;31;Divorciado;La Laguna ; Quillón 
+CLI00066;Krishna   Orellana;37;Viudo; Putre ; Coyhaique 
+CLI00067;Constanza   Pino;32;Soltero; Isla de Maipo ; Paihuano 
+CLI00068;Paz   Campos;31;Divorciado; Caldera ; Puerto Ingeniero Ibáñez 
+CLI00069;Claudio   Gallardo;50;Viudo; Iloca; Ancud 
+CLI00070;Josué   Sánchez;45;Divorciado; Caldera ; La Junta 
+CLI00071;Leonardo   Zúñiga;43;Divorciado; Iloca; El Boyenar 
+CLI00072;Cristián   Carrasco;26;Casado; Tinguiririca ; Chauquén 
+CLI00073;Aaron   Fernández;25;Casado; Tulahuén ;Coquimbo 
+CLI00074;Danae   Escobar;49;Casado; Valdivia ; Quillón 
+CLI00075;Ashley   Romero;24;Soltero; Villa Alemana; Catripulli 
+CLI00076;Emilio   Vásquez;44;Viudo; Peleco ; El Manzano 
+CLI00077;Abigail   Farías;37;Divorciado; Villa O'Higgins ; Las Vertientes 
+CLI00078;Olivia   Vásquez;43;Casado;Lontué ; Osorno 
+CLI00079;Leonor   Orellana;50;Casado; Putre ;Puerto Saavedra 
+CLI00080;Mayte   Saavedra;42;Viudo; Pisco Elqui ; El Médano 
+CLI00081;Vicente   Aguilera;26;Casado; Lebu ; Paihuano 
+CLI00082;Nicolás   Castillo;38;Viudo; Puerto Varas ; Pelluhue 
+CLI00083;Paula   Herrera;45;Soltero; Chauquén ; Osorno 
+CLI00084;Fabián   Vásquez;19;Casado;Las Trancas (Termas de Chillán) ; Vilches 
+CLI00085;Fabián   Cortés;25;Soltero; Pichilemu ; Ancud 
+CLI00086;Camilo   López;27;Casado; Rangue ; Isla R. Crusoe (Juan Fernández) 
+CLI00087;Millaray   Vera;26;Casado;Pica ;Puerto Guadal 
+CLI00088;Leonardo   Vásquez;39;Viudo; Chanavayita ; Puerto Fonck 
+CLI00089;Amaro   Gutiérrez;21;Divorciado; Cucao ; Isla de Maipo 
+CLI00090;Eduardo   García;43;Viudo; Iquique ; Quintay 
+CLI00091;Francisca   Torres;24;Divorciado; Freire ; Freire 
+CLI00092;Elena   Núñez;33;Soltero; El Tabo ; Las Cabras 
+CLI00093;Dante   Cáceres;26;Divorciado; San Alfonso ; Paihuano 
+CLI00094;Matías   Cáceres;33;Casado; Colonia Lautaro ; Alto del Carmen 
+CLI00095;Juan   Sánchez;23;Soltero; Quenuir ; Mehuín 
+CLI00096;Josefina   Navarrete;19;Viudo; Villa Tehuelches ; Concón 
+CLI00097;Damián   Leiva;44;Divorciado; Puyuhuapi ; Nercón 
+CLI00098;Lucas   Guzmán;43;Viudo; Niebla ; Caburga 
+CLI00099;Noemí   Leiva;40;Viudo; San Fabián de Alico ; Cucao 
+CLI00100;Isabella   Parra;28;Casado; Coihaique ; Vichuquén 
+CLI00101;Noelia   Saavedra;38;Viudo; Cochrane ;Rivadavia 
+CLI00102;Claudio   Valdés;36;Casado; Panimavida ; Ensenada 
+CLI00103;Amparo   López;39;Casado; Cunco ; Quenuir 
+CLI00104;Ángel   Cerda;34;Casado; Calama ; Punta Choros 
+CLI00105;Gustavo   Vergara;27;Casado; Isla R. Crusoe (Juan Fernández) ; Constitución 
+CLI00106;Esperanza   Molina;45;Viudo; Mehuín ; Pichidangui 
+CLI00107;Consuelo   Carrasco;47;Divorciado; Quenuir ;Puerto Guadal 
+CLI00108;Josefa   García;25;Soltero; San Pedro De Atacama; Saltos del Laja 
+CLI00109;Matilda   Álvarez;18;Soltero; Punta Choros ; Valparaíso 
+CLI00110;Pía   Moreno;44;Divorciado;Puerto Saavedra ;Metri 
+CLI00111;Thomas   Gómez;48;Divorciado; El Manzano ; Piruquina 
+CLI00112;Julieta   Donoso;32;Soltero; Las Cabras ; Guanaqueros 
+CLI00113;Óscar   Bravo;20;Soltero; Saltos del Laja ; Futaleufú 
+CLI00114;Fernanda   Pino;34;Viudo; Maitencillo ; Quillón 
+CLI00115;Matías   Ruiz;42;Soltero; Puerto Aysén ; Caleta Tortel 
+CLI00116;Joaquín   Morales;40;Soltero; Limache ; Vicuña 
+CLI00117;Luis   Pizarro;45;Viudo;Puertecillo ; Iloca
+CLI00118;Jean   Araya;24;Viudo; Caldera ; Constitución 
+CLI00119;Antonia   Guerrero;32;Casado; El Melocotón ; Cunco 
+CLI00120;Matías   Poblete;47;Casado; Baños Morales ; Río Puelo 
+CLI00121;Laura   Valenzuela;18;Viudo;Las Trancas (Termas de Chillán) ; El Manzano 
+CLI00122;Juan   Campos;29;Casado; Cochiguaz ; Piruquina 
+CLI00123;Agustín   Ortega;38;Viudo; Hornopirén ; Río Puelo 
+CLI00124;Dante   Riquelme;24;Viudo; Frutillar ; Villarrica 
+CLI00125;Pedro   Aguilera;20;Divorciado; Constitución ; Futaleufú 
+CLI00126;Esteban  Soto;32;Soltero;Cobquecura ; Curanipe 
+CLI00127;Pablo   Reyes;29;Soltero; Coronel ; Alto del Carmen 
+CLI00128;Kevin   Álvarez;29;Viudo;Quillaipe ; Vichuquén 
+CLI00129;Aylin   Bustos;31;Soltero;Puerto Saavedra ; Carelmapu 
+CLI00130;Amparo   Navarrete;40;Viudo; Isla R. Crusoe (Juan Fernández) ;Entre Lagos 
+CLI00131;Isaías   Fernández;41;Soltero; Freire ; Guanaqueros 
+CLI00132;Lukas   Vega;46;Viudo; San Fabián de Alico ; Baños Morales 
+CLI00133;Alexandra   Vergara;40;Soltero; San José de Maipo ; Quenuir 
+CLI00134;Pascal   Lagos;35;Soltero;Rivadavia ; Tomé 
+CLI00135;Franco   Zúñiga;50;Divorciado; Caldera ;Metri 
+CLI00136;Dominique   Aguilera;44;Casado; Reñaca ; Coronel 
+CLI00137;Javiera   Cerda;25;Casado; El Quisco ;Quillaipe 
+CLI00138;Javiera   Sáez;39;Divorciado;Rivadavia ; Totoralillo 
+CLI00139;Sebastián   Pizarro;26;Divorciado; La Serena ; Coihaique 
+CLI00140;María   Yáñez;36;Divorciado; El Tabo ; Caldera 
+CLI00141;Valentina   Valenzuela;28;Viudo; Rangue ;Cahuil 
+CLI00142;Josefa   Bustamante;25;Soltero; Futaleufú ; San Pedro De Atacama
+CLI00143;Esteban   Salazar;26;Viudo; Huasco ; Huasco 
+CLI00144;Iván   Godoy;21;Casado; Paihuano ; Huasco 
+CLI00145;Isabella   Farías;44;Casado; Castro ; Panguipulli 
+CLI00146;Elisa   Campos;44;Divorciado;Coquimbo ; Las Cabras 
+CLI00147;Alexandra   Escobar;42;Viudo; Lago Ranco ; El Manzano 
+CLI00148;Claudio   Guerrero;26;Viudo; El Manzano ; Tongoy 
+CLI00149;Emily   Toro;47;Casado; Villa Tehuelches ; Rinconada 
+CLI00150;Manuel   Valenzuela;37;Divorciado; El Colorado ; Guanaqueros 
+CLI00151;Génesis   Riquelme;25;Viudo; Limache ; Paihuano 
+CLI00152;Pablo   Medina;28;Casado; Puerto Fonck ; La Serena 
+CLI00153;César   Donoso;46;Soltero; Llicaldad ; Pichilemu 
+CLI00154;Colomba   Aravena;27;Soltero; Quenuir ; Guanaqueros 
+CLI00155;Javiera   Vargas;39;Viudo; Peleco ; Isla R. Crusoe (Juan Fernández) 
+CLI00156;Fabián   Vega;26;Soltero;Coquimbo ; Puerto Natales 
+CLI00157;Dylan   Saavedra;46;Viudo; Algarrobo ; El Boyenar 
+CLI00158;Noemí   Torres;41;Divorciado; Puerto Bertrand ; Coñaripe 
+CLI00159;Consuelo   Rivera;50;Viudo; Curanipe ; Iquique 
+CLI00160;Bárbara   Castillo;28;Casado; Pucón ; Las Trincheras 
+CLI00161;Marcelo   Flores;42;Divorciado; Manzanar ; Pisco Elqui 
+CLI00162;Isabella   Romero;35;Casado; Tinguiririca ; Vilches 
+CLI00163;Rocío   Molina;27;Soltero; Laguna Verde ; Iloca
+CLI00164;Alfonso   Herrera;34;Soltero; Coyhaique ; Villa Tehuelches 
+CLI00165;Julieta   Vega;48;Soltero; Mehuín ; Colonia Lautaro 
+CLI00166;Antonia   Hernández;39;Soltero; Ilihue ;Coquimbo 
+CLI00167;Sofía   Pizarro;35;Casado; Puente Negro ; Pozo Almonte 
+CLI00168;Dominique   Guzmán;32;Soltero; El Médano ; Isla Negra 
+CLI00169;Josué   Herrera;22;Casado; Buchupureo ; Villa Tehuelches 
+CLI00170;Lukas   Castro;23;Casado; Puerto Cárdenas ; Puyuhuapi 
+CLI00171;Belén  Soto;41;Soltero; Iloca; Tongoy 
+CLI00172;Aylin   Gallardo;21;Divorciado; El Médano ; Saltos del Laja 
+CLI00173;Paz   Peña;25;Casado; Tomé ; El Colorado 
+CLI00174;Nicolás   Ramírez;35;Divorciado; Vichuquén ; Buchupureo 
+CLI00175;Baltazar   Martínez;20;Casado; Piruquina ; Villa O'Higgins 
+CLI00176;Isaías   Moreno;22;Soltero; Vichuquén ; Peleco 
+CLI00177;Eduardo   Sánchez;29;Divorciado; Puerto Cárdenas ; Villarrica 
+CLI00178;Rayén   Cáceres;19;Casado;Metri ; Cunco 
+CLI00179;Valentina   Miranda;18;Viudo;La Laguna ; Lican Ray 
+CLI00180;León   Maldonado;23;Viudo; Caleta Tortel ; Osorno 
+CLI00181;Martín   Carvajal;30;Casado; Puerto Montt ; El Médano 
+CLI00182;Cristóbal   Guzmán;33;Divorciado; Niebla ; Cunco 
+CLI00183;Krishna   Sanhueza;24;Soltero; El Boyenar ; Freire 
+CLI00184;Amy   Vega;27;Divorciado; Tongoy ; Los Vilos 
+CLI00185;Víctor   Moreno;46;Casado; Bahia Inglesa ; San Félix 
+CLI00186;Dylan   Campos;19;Soltero; Molco ; Tulahuén 
+CLI00187;Clemente   Gutiérrez;32;Divorciado; Putre ; Puerto Varas 
+CLI00188;Gaspar   Aguilera;18;Soltero; La Herradura ; Malalcahuello 
+CLI00189;Demian   Ramírez;50;Viudo; Puerto Pirihueico ; Villarrica 
+CLI00190;Colomba   Castillo;29;Viudo; Valparaíso ; Quillón 
+CLI00191;Miguel  Acuña;46;Soltero; Pedregal ;Lontué 
+CLI00192;Rafaella   Navarro;18;Casado; Puerto Fonck ; Ensenada 
+CLI00193;Pía   Guzmán;40;Viudo; Vicuña ; Isla de Maipo 
+CLI00194;Luciano   Maldonado;48;Casado; Las Cruces ;Pica 
+CLI00195;Bastián   Cárdenas;34;Viudo; Las Cruces ; La Tirana 
+CLI00196;Daniel   Peña;40;Viudo; Puerto Choque ; Punta De Tralca 
+CLI00197;Claudio   Cáceres;31;Divorciado;Coquimbo ; Las Cabras 
+CLI00198;Mauricio   Vera;34;Divorciado; Puente Negro ;Lontué 
+CLI00199;Carlos   Farías;29;Casado; Guanaqueros ; Victoria 
+CLI00200;Sergio   Sánchez;37;Divorciado; Colonia Lautaro ;Alcohuaz 
+CLI00201;Axel   Yáñez;19;Casado; Las Cabras ;La Laguna 
+CLI00202;Cristóbal   Alvarado;50;Soltero; Puerto Ingeniero Ibáñez ; La Herradura 
+CLI00203;Alejandro   García;44;Soltero; Taltal ; Puente Negro 
+CLI00204;Gonzalo   Rivera;45;Divorciado; Punta Arenas ; Puerto Bertrand 
+CLI00205;Martina   Contreras;32;Casado; Los Molinos ; Peleco 
+CLI00206;Amy   Rivera;24;Viudo; Punta Arenas ; Concón 
+CLI00207;Sophia   Fuentes;41;Casado; Huasco ; Malalcahuello 
+CLI00208;Guillermo   Cortés;40;Soltero;Alcohuaz ;Las Trancas (Termas de Chillán) 
+CLI00209;Leonardo   Carrasco;43;Soltero; El Melocotón ; Villa Alemana
+CLI00210;Manuel   Orellana;33;Divorciado; Puerto Bertrand ; Ensenada 
+CLI00211;Maximiliano   Salazar;49;Soltero; Villa O'Higgins ; Piruquina 
+CLI00212;Mateo   Guzmán;19;Casado; Las Cruces ; Santa Cruz 
+CLI00213;Bárbara   Olivares;23;Divorciado; Catripulli ; Iquique 
+CLI00214;Matilde   Vera;41;Viudo; Las Trincheras ;Cahuil 
+CLI00215;Eduardo   Jara;32;Viudo; Tinguiririca ;El Guayacán 
+CLI00216;Consuelo   Saavedra;50;Casado;Las Trancas (Termas de Chillán) ; Los Molles 
+CLI00217;Nicolás   Medina;31;Casado; Vicuña ; Ritoque 
+CLI00218;Krishna   Palma;27;Soltero; Valparaíso ; Rangue 
+CLI00219;Colomba   Vera;45;Soltero; Pedregal ; Limache 
+CLI00220;Noemí   Bravo;35;Viudo; Lican Ray ; Chauquén 
+CLI00221;Amparo   Martínez;33;Viudo; Valparaíso ; Puerto Montt 
+CLI00222;Josefa   Martínez;24;Viudo; San Fabián de Alico ; Maitencillo 
+CLI00223;Javier   Leiva;48;Casado; Melipilla ; El Médano 
+CLI00224;Cristopher   Yáñez;18;Viudo; El Manzano ; Malalcahuello 
+CLI00225;Julieta   Sanhueza;27;Divorciado;Coquimbo ; Calama 
+CLI00226;Kevin   Sáez;42;Divorciado; Saltos del Laja ; Tongoy 
+CLI00227;Elena   Vergara;49;Viudo; Viña Del Mar; Chanavayita 
+CLI00228;Facundo   Lagos;25;Casado;Puerto Saavedra ; Puerto Montt 
+CLI00229;Laura   Espinoza;20;Casado; Piruquina ; El Colorado 
+CLI00230;Cristopher   Guzmán;23;Viudo;Puerto Guadal ; Pichilemu 
+CLI00231;Josefa   Bustos;19;Soltero; Llicaldad ; Lago Ranco 
+CLI00232;Facundo   Farías;22;Viudo; Melipilla ; Puente Negro 
+CLI00233;Isabel   Rivera;39;Soltero; El Médano ; El Manzano 
+CLI00234;Amalia   Guzmán;43;Casado;Puerto Guadal ; Cochrane 
+CLI00235;Maximiliano   Vera;26;Divorciado; Puerto Pirihueico ; Iquique 
+CLI00236;Ámbar   Salazar;33;Viudo;Puerto Saavedra ; Baños Morales 
+CLI00237;Alexis   Vergara;31;Soltero; Mehuín ; Pucón 
+CLI00238;Rafaela   Reyes;26;Viudo; Cucao ; Molco 
+CLI00239;Francisca   Rodríguez;28;Soltero; Caburga ; Frutillar Alto 
+CLI00240;Florencia   Aguilera;50;Soltero; Calama ; Santa Olga 
+CLI00241;Carlos   Salazar;44;Soltero; Lebu ; Puerto Fonck 
+CLI00242;Lucía   Valenzuela;25;Viudo; Carelmapu ; Juan Lopez 
+CLI00243;Luciana   Álvarez;24;Soltero; Ensenada ; Puerto Choque 
+CLI00244;Esperanza   Toro;23;Viudo; Olmué ; Puerto Varas 
+CLI00245;Julián   Poblete;38;Soltero; Puerto Fonck ; Chauquén 
+CLI00246;Ignacia   Palma;32;Casado; Punta Choros ; Pisco Elqui 
+CLI00247;Paz   Navarrete;33;Casado;Puertecillo ; Constitución 
+CLI00248;Katalina   Rodríguez;39;Soltero; Taltal ;Pica 
+CLI00249;Elías   Fernández;18;Divorciado; Tulahuén ; Quillota 
+CLI00250;Andrés   Carrasco;46;Divorciado; Vichuquén ; Cucao 
+CLI00251;Alonso   Leiva;43;Casado; San José de Maipo ; Victoria 
+CLI00252;Celeste   Leiva;36;Divorciado; Futaleufú ; Huasco 
+CLI00253;Felipe   Vergara;40;Soltero; Puerto Natales ; Taltal 
+CLI00254;Álvaro   Torres;48;Divorciado; Las Trincheras ; Puerto Lloles 
+CLI00255;Javier   Gallardo;28;Casado; Maitencillo ; Valdivia 
+CLI00256;Andrés   Alarcón;35;Viudo;Cobquecura ; Nercón 
+CLI00257;Katalina   Espinoza;40;Viudo; Carelmapu ; Chile Chico 
+CLI00258;Ámbar   García;20;Casado; Curanipe ;La Laguna 
+CLI00259;Constanza   Tapia;37;Viudo; Villa O'Higgins ; Coronel 
+CLI00260;Consuelo   Castro;34;Casado;La Laguna ; Iquique 
+CLI00261;Thomas   Sánchez;44;Viudo;Cobquecura ; Niebla 
+CLI00262;Paz   Ortega;22;Soltero; Pisco Elqui ; Recinto 
+CLI00263;Ian   Poblete;25;Divorciado; San Pedro De Atacama; Llifén 
+CLI00264;Agustín   Salinas;21;Viudo; Frutillar Alto ; La Serena 
+CLI00265;Kiara   Gutiérrez;42;Viudo; Termas del Flaco ; La Tirana 
+CLI00266;Abigail   Álvarez;34;Casado; Colonia Lautaro ; Totoralillo 
+CLI00267;Víctor   Parra;36;Soltero; Tomé ; Los Vilos 
+CLI00268;Tomás   Miranda;46;Soltero; Chile Chico ; Punta De Tralca 
+CLI00269;Daniel   Valdés;24;Soltero; Río Bueno ; El Melocotón 
+CLI00270;Vicente   Farías;50;Divorciado;Puerto Saavedra ; Termas del Flaco 
+CLI00271;Sebastián   Sáez;22;Viudo;Puerto Saavedra ; Villa Alemana
+CLI00272;Luciano   Martínez;29;Divorciado; Baños Morales ; Vichuquén 
+CLI00273;Dylan   Aguilera;24;Viudo; Las Vertientes ; Pelluhue 
+CLI00274;Isaías   Guzmán;32;Casado; Villa Alemana; Llicaldad 
+CLI00275;Ian   Ortega;18;Soltero;Cobquecura ; El Tabo 
+CLI00276;Sophia   Donoso;19;Casado; Termas del Flaco ; Laguna Verde 
+CLI00277;David   López;32;Divorciado;Alcohuaz ; Panguipulli 
+CLI00278;Violeta   Araya;35;Casado; San Pedro De Atacama; Putre 
+CLI00279;Rafaela   Ruiz;48;Casado; Vicuña ; Melipilla 
+CLI00280;Amparo   Godoy;24;Casado; Rangue ; Frutillar 
+CLI00281;Manuel   López;27;Viudo; Vilches ; Punta De Tralca 
+CLI00282;Thomas   Sánchez;35;Soltero;Puertecillo ; Paihuano 
+CLI00283;Katalina   Figueroa;41;Viudo; Frutillar ; Puerto Fonck 
+CLI00284;Alan   García;26;Viudo; Llicaldad ; El Melocotón 
+CLI00285;Ámbar   Palma;50;Viudo; Niebla ; Carelmapu 
+CLI00286;Santiago   Salazar;39;Viudo; Niebla ; Curacautín 
+CLI00287;Jean   Alarcón;29;Casado;Quillaipe ; San José de Maipo 
+CLI00288;Vicente   Orellana;37;Divorciado; Victoria ; Alto del Carmen 
+CLI00289;Camila   Campos;34;Soltero; El Molle ;Entre Lagos 
+CLI00290;Elías   Aguilera;36;Soltero; Lago Ranco ; Niebla 
+CLI00291;Rafael   Medina;33;Soltero; Niebla ; Cunco 
+CLI00292;Olivia   Pino;43;Divorciado; La Serena ; Punta Choros 
+CLI00293;Javier   Valdés;27;Divorciado; Tomé ;Rivadavia 
+CLI00294;David   Pizarro;31;Casado; Ilihue ; Manzanar 
+CLI00295;Santiago   Godoy;50;Casado; Pichidangui ; Puerto Ingeniero Ibáñez 
+CLI00296;Agustina   Cáceres;41;Soltero; Algarrobo ; Lebu 
+CLI00297;Josefina   Garrido;34;Casado; Angol ; Puerto Aysén 
+CLI00298;Jesús   Alvarado;47;Divorciado; Putre ; Freire 
+CLI00299;Facundo   Miranda;30;Divorciado; Constitución ; Chauquén 
+CLI00300;Kevin   Ortiz;40;Soltero; Santa Cruz ; Punta Arenas 
+CLI00301;Esteban   Peña;18;Divorciado; Valdivia ; Villa O'Higgins 
+CLI00302;Dante   Bravo;23;Divorciado;Quillaipe ; Mehuín 
+CLI00303;Nicolás   Valenzuela;26;Viudo; Dichato ; La Herradura 
+CLI00304;Abigail   Venegas;26;Viudo; Pucón ; Curanipe 
+CLI00305;Rafaela   Vergara;20;Soltero; Osorno ; El Molle 
+CLI00306;Isabel   Bustamante;24;Soltero; Totoralillo ; Totoralillo 
+CLI00307;Violeta  Acuña;24;Soltero; Los Molinos ; Lican Ray 
+CLI00308;Dante   Herrera;18;Casado; Isla R. Crusoe (Juan Fernández) ; Pozo Almonte 
+CLI00309;Gustavo   Flores;31;Viudo;Lontué ; Saltos del Laja 
+CLI00310;Víctor   Poblete;46;Divorciado; Puerto Lloles ; Puerto Montt 
+CLI00311;Gonzalo   Espinoza;36;Soltero; El Médano ; Puerto Varas 
+CLI00312;Ricardo   Silva;22;Divorciado;El Guayacán ; Vicuña 
+CLI00313;Elías   Vidal;27;Casado; Bahia Inglesa ; Villa Tehuelches 
+CLI00314;Álvaro   Gómez;40;Soltero;La Laguna ;Quillaipe 
+CLI00315;Anaís   Castillo;32;Casado; Molco ; Putre 
+CLI00316;Katalina   Fernández;48;Viudo; Carelmapu ; Viña Del Mar
+CLI00317;Agustín   Guzmán;39;Viudo; Puerto Natales ; Colonia Lautaro 
+CLI00318;Dafne   Olivares;37;Soltero; Santa Olga ;Alcohuaz 
+CLI00319;Alejandra   Silva;38;Soltero; Pozo Almonte ; Punta Choros 
+CLI00320;Amparo   Vera;35;Divorciado;Entre Lagos ; Saltos del Laja 
+CLI00321;Matilda   Henríquez;43;Divorciado; Quintay ; Tongoy 
+CLI00322;Francisco   Palma;34;Soltero; Puerto Aysén ; Coihaique 
+CLI00323;Sophia   Orellana;47;Soltero; Peleco ; Paihuano 
+CLI00324;Juan   Castillo;45;Divorciado;Puertecillo ; Victoria 
+CLI00325;Sara   Palma;25;Divorciado; Olmué ; Totoralillo 
+CLI00326;Consuelo   Gallardo;42;Divorciado; El Manzano ;El Guayacán 
+CLI00327;Emiliano   Vergara;18;Viudo; Cucao ;Rivadavia 
+CLI00328;Pía   Bustos;32;Divorciado; Compu ; Panguipulli 
+CLI00329;Dominique   Farías;31;Viudo; Ensenada ; Isla de Maipo 
+CLI00330;Antonella   Sánchez;27;Viudo; Reñaca ;Puertecillo 
+CLI00331;Anaís   Zúñiga;25;Soltero;El Guayacán ; Puerto Varas 
+CLI00332;Máximo   Guerrero;47;Divorciado; La Herradura ; Pisco Elqui 
+CLI00333;Emma   Riquelme;21;Divorciado;Pica ; Vichuquén 
+CLI00334;Mayra   García;21;Soltero; Molco ;Puerto Saavedra 
+CLI00335;Nicolás   Gallardo;20;Soltero; Maitencillo ; Iloca
+CLI00336;Maura   Saavedra;40;Casado; Caburga ; Puerto Pirihueico 
+CLI00337;Mathías   Saavedra;26;Casado; Ancud ; Algarrobo 
+CLI00338;Juan  Acuña;38;Soltero; Las Cruces ; Concón 
+CLI00339;Samuel   Sáez;34;Divorciado; Puerto Natales ; Chanavayita 
+CLI00340;Luciana   Valenzuela;22;Divorciado;Metri ; Puyuhuapi 
+CLI00341;Laura   García;48;Viudo; Viña Del Mar; Alto del Carmen 
+CLI00342;Ignacio   Álvarez;31;Viudo; Guanaqueros ; Coyhaique 
+CLI00343;Consuelo   Gallardo;43;Casado; Coñaripe ; Los Molinos 
+CLI00344;Emily   Romero;29;Casado; Puerto Pirihueico ; Villa Tehuelches 
+CLI00345;Alejandra   Aguilera;26;Divorciado; Llifén ; Puerto Montt 
+CLI00346;Amparo   Figueroa;22;Casado; Santa Olga ; Coyhaique 
+CLI00347;Benjamín   Reyes;36;Casado; Puerto Ingeniero Ibáñez ; Pichilemu 
+CLI00348;Gabriela   Castillo;20;Divorciado; Algarrobo ; Puerto Choque 
+CLI00349;Mayra   Valdés;20;Soltero; Constitución ; Maitencillo 
+CLI00350;Valentina   Romero;48;Casado; Puerto Fonck ; Las Cabras 
+CLI00351;Thiare   Espinoza;37;Divorciado; Olmué ; Ensenada 
+CLI00352;Agustín   Peña;27;Casado; Tinguiririca ; El Colorado 
+CLI00353;Amaro   Aravena;30;Soltero; San José de Maipo ; Maitencillo 
+CLI00354;Esteban   Valenzuela;20;Viudo; Isla R. Crusoe (Juan Fernández) ; Laguna Verde 
+CLI00355;Daniela   Cerda;28;Soltero; Isla R. Crusoe (Juan Fernández) ; Chauquén 
+CLI00356;María   Henríquez;29;Viudo; San Félix ; Nercón 
+CLI00357;Dominique   García;23;Soltero; El Molle ; Rangue 
+CLI00358;Carla   Valdés;44;Soltero;Rivadavia ;Lontué 
+CLI00359;Ema   Farías;33;Divorciado;Pica ; Puerto Choque 
+CLI00360;Vicente   Gallardo;20;Viudo; Freire ;Lontué 
+CLI00361;Lucas   Rodríguez;30;Divorciado; Llicaldad ; Valparaíso 
+CLI00362;Pascale   Bustos;50;Divorciado; Llifén ; Malalcahuello 
+CLI00363;Pascal   Vera;23;Viudo; Punta Choros ; Paihuano 
+CLI00364;Kevin   Sanhueza;34;Viudo; Osorno ; Coñaripe 
+CLI00365;Máximo   Cerda;30;Soltero; Pozo Almonte ; Puerto Montt 
+CLI00366;Mayte   Saavedra;21;Divorciado;Rivadavia ; Vilches 
+CLI00367;Daniela   Navarrete;27;Viudo; La Tirana ; Iloca
+CLI00368;Manuel  Acuña;21;Soltero; Caburga ; Valparaíso 
+CLI00369;Facundo   Campos;38;Divorciado; Concón ; Las Vertientes 
+CLI00370;Manuel   Rodríguez;43;Viudo; Chauquén ; Puerto Varas 
+CLI00371;Dylan   Bustos;25;Viudo; Los Molinos ; Chanavayita 
+CLI00372;Santiago   Vidal;42;Viudo; Malalcahuello ; Angol 
+CLI00373;Clemente   Gutiérrez;31;Divorciado; El Tabo ; La Junta 
+CLI00374;Camilo   Hernández;41;Casado; Angol ; Lican Ray 
+CLI00375;Alonso   Hernández;44;Divorciado; Frutillar Alto ; Coihaique 
+CLI00376;Javier   Álvarez;18;Soltero; Villa O'Higgins ; Colonia Lautaro 
+CLI00377;Constanza   Rivera;38;Casado; Compu ;Alcohuaz 
+CLI00378;Maximiliano   Godoy;44;Soltero; Coñaripe ; Quenuir 
+CLI00379;Antonia   Morales;28;Viudo; Chile Chico ; Ilihue 
+CLI00380;Manuel   Valenzuela;31;Viudo; Tongoy ; Taltal 
+CLI00381;León   Aguilera;39;Divorciado; Punta De Tralca ; Concón 
+CLI00382;Samuel   Leiva;47;Viudo; Panimavida ; Río Bueno 
+CLI00383;Emilia   Saavedra;40;Viudo; Puerto Aysén ; Punta De Tralca 
+CLI00384;Dominique   Bustamante;41;Viudo; Los Molinos ; Concón 
+CLI00385;Emma   Gutiérrez;31;Soltero; Playa La Virgen ; Mamiña 
+CLI00386;Antonela   Gutiérrez;37;Soltero; El Colorado ; Constitución 
+CLI00387;Alfonso   Campos;38;Viudo; Tinguiririca ; Puente Negro 
+CLI00388;Pía   Valenzuela;29;Soltero;Quillaipe ;Cobquecura 
+CLI00389;Emilio   Jara;50;Viudo; Freire ; Taltal 
+CLI00390;Belén   Sepúlveda;27;Viudo; Rinconada ; Ilihue 
+CLI00391;Ricardo   Olivares;27;Casado; Malalcahuello ;Rivadavia 
+CLI00392;Lucas   Godoy;49;Divorciado;Metri ; Talca 
+CLI00393;Franco   Riquelme;27;Casado; Termas del Flaco ; Peleco 
+CLI00394;Josué   Navarro;33;Viudo; Puerto Montt ; Puerto Cisnes 
+CLI00395;Isabella   Fernández;27;Divorciado; Tirúa ; Huasco 
+CLI00396;Ignacia   Rodríguez;43;Casado; Lago Ranco ; Isla R. Crusoe (Juan Fernández) 
+CLI00397;Javiera   Ortega;39;Soltero; Valparaíso ; Santa Cruz 
+CLI00398;Diego   López;50;Viudo; Cucao ; La Serena 
+CLI00399;Sofía   Núñez;50;Viudo; Quillota ; Las Trincheras 
+CLI00400;Pedro   Valenzuela;27;Viudo; San Alfonso ;La Laguna 
+CLI00401;Amparo   Sanhueza;44;Divorciado; Puerto Varas ; Constitución 
+CLI00402;Gonzalo   Guerrero;44;Divorciado; Vichuquén ; La Serena 
+CLI00403;Laura   Morales;23;Divorciado; Pisco Elqui ; Isla de Maipo 
+CLI00404;Maura   Morales;44;Divorciado; Angol ; Coñaripe 
+CLI00405;Simón   Miranda;47;Viudo; Puerto Ingeniero Ibáñez ; Colonia Lautaro 
+CLI00406;Abigail   Henríquez;38;Divorciado; Las Cruces ; Baños Morales 
+CLI00407;Agustina   Toro;29;Viudo; Quillón ; Molco 
+CLI00408;Magdalena   Hernández;50;Soltero; Santa Juana ; Malalcahuello 
+CLI00409;Camila   Gutiérrez;18;Viudo; El Manzano ; Puerto Choque 
+CLI00410;Bruno   Hernández;22;Soltero; El Molle ; Coyhaique 
+CLI00411;Sofía   Maldonado;40;Divorciado; Mehuín ; Puerto Aysén 
+CLI00412;Carlos   Cortés;41;Viudo; Lago Ranco ; Rangue 
+CLI00413;Francisco   Peña;45;Soltero; Catripulli ; Constitución 
+CLI00414;Cristián   Garrido;29;Viudo; Algarrobo ; Tinguiririca 
+CLI00415;Marcelo   Bravo;24;Soltero; Cunco ; Chile Chico 
+CLI00416;Mayra   Poblete;41;Soltero; Quillota ; San Pedro De Atacama
+CLI00417;Gabriel   Bustos;48;Soltero; Quintay ; Santa Olga 
+CLI00418;Emiliano   Castro;28;Divorciado; San Félix ; Freire 
+CLI00419;Eduardo   Castillo;38;Casado; Peleco ; Curanipe 
+CLI00420;Renata   Herrera;18;Viudo; Los Molinos ; Puerto Montt 
+CLI00421;Ashley   Molina;49;Divorciado; Valparaíso ; Compu 
+CLI00422;Ema   Campos;30;Divorciado;Puertecillo ;Puerto Guadal 
+CLI00423;Ema   Araya;23;Viudo; Tirúa ; Catripulli 
+CLI00424;Carlos   Maldonado;32;Viudo; Taltal ;Pica 
+CLI00425;Emily   Carrasco;37;Soltero; Algarrobo ; Puerto Cárdenas 
+CLI00426;Mauricio   Moreno;46;Casado;Pica ; Manzanar 
+CLI00427;Amaro   Godoy;44;Viudo; Laguna Verde ; Puerto Montt 
+CLI00428;Samantha   Peña;49;Divorciado;La Laguna ; Freire 
+CLI00429;Alonso   Valdés;19;Soltero; Rinconada ; Puerto Bertrand 
+CLI00430;Constanza   Olivares;27;Divorciado; Manzanar ; Valparaíso 
+CLI00431;Dominique   Ramírez;19;Viudo; Puerto Aysén ; Frutillar Alto 
+CLI00432;Fabián   Sánchez;40;Casado; El Manzano ; Viña Del Mar
+CLI00433;Sebastián   Moreno;49;Casado; Peleco ; Reñaca 
+CLI00434;Pía   Gutiérrez;48;Soltero; Lican Ray ;El Guayacán 
+CLI00435;Matilda   Poblete;47;Soltero; Caleta Tortel ;Cahuil 
+CLI00436;Pascale   Escobar;25;Casado; San Fabián de Alico ; Taltal 
+CLI00437;Rayén   Campos;36;Divorciado; Pucón ; Limache 
+CLI00438;Luis   Navarro;37;Casado; El Manzano ; Puerto Ingeniero Ibáñez 
+CLI00439;Maite   Jiménez;20;Soltero; Guanaqueros ; Vicuña 
+CLI00440;Alondra   Farías;40;Divorciado; Hornopirén ; Vichuquén 
+CLI00441;Emiliano   Palma;31;Soltero;Quillaipe ; Las Cruces 
+CLI00442;Monserrat   Sánchez;19;Soltero; Mehuín ; El Colorado 
+CLI00443;Pía   Vásquez;24;Soltero; Los Molles ; El Médano 
+CLI00444;Ignacia   Godoy;31;Casado; Pisco Elqui ; Pichilemu 
+CLI00445;Maura   Ortega;36;Divorciado; San Fabián de Alico ; Piruquina 
+CLI00446;Ámbar   Bravo;40;Soltero; El Manzano ; Quillón 
+CLI00447;Víctor   Donoso;39;Casado; Pisco Elqui ; Río Puelo 
+CLI00448;Antonia   Escobar;29;Divorciado; Puyuhuapi ; Coyhaique 
+CLI00449;Felipe   Vargas;24;Soltero; Osorno ; Tulahuén 
+CLI00450;Ángel   Vásquez;39;Divorciado; Futaleufú ; San Alfonso 
+CLI00451;Juan   Bustamante;50;Divorciado; El Manzano ; Guanaqueros 
+CLI00452;Emily   Parra;40;Divorciado; El Quisco ;Torres Del Paine 
+CLI00453;Trinidad   Castillo;36;Viudo; Mamiña ; Taltal 
+CLI00454;Paula   Yáñez;24;Divorciado; Pucón ; Isla de Maipo 
+CLI00455;Danae   Sáez;18;Divorciado; Futrono ; Carelmapu 
+CLI00456;Ámbar   Gómez;42;Viudo; El Médano ; Quillota 
+CLI00457;Dylan   Núñez;20;Soltero; La Serena ; San José de Maipo 
+CLI00458;Emma   Poblete;46;Viudo; Puerto Choque ; Tulahuén 
+CLI00459;Celeste   García;31;Casado; Ancud ; Ancud 
+CLI00460;Violeta   Parra;48;Divorciado; Chile Chico ; Las Trincheras 
+CLI00461;Camila   Venegas;39;Casado; Alto del Carmen ; Las Trincheras 
+CLI00462;Clemente   Escobar;18;Casado; Manzanar ; Río Bueno 
+CLI00463;Francisca   Guerrero;40;Divorciado;Entre Lagos ;Torres Del Paine 
+CLI00464;Vicente   Gallardo;33;Viudo; Puerto Lloles ; El Colorado 
+CLI00465;Daniela   Riquelme;43;Divorciado; Pichidangui ; Nercón 
+CLI00466;Rafaella   Espinoza;37;Casado; Baños Morales ; Niebla 
+CLI00467;Alondra   Castro;32;Viudo; Los Vilos ; San Fabián de Alico 
+CLI00468;Demian   Aravena;19;Soltero; La Tirana ; Catripulli 
+CLI00469;Dafne   Jara;29;Viudo; Las Trincheras ; Valparaíso 
+CLI00470;Montserrat   Ruiz;47;Divorciado; Pucón ; Isla Negra 
+CLI00471;Manuel   Morales;46;Divorciado; Lebu ; Puerto Cárdenas 
+CLI00472;Álvaro   Poblete;32;Soltero; Puerto Fonck ; Punta Arenas 
+CLI00473;Fernanda   Miranda;41;Divorciado; Ritoque ;Puerto Guadal 
+CLI00474;Dafne   Vidal;37;Divorciado; Coihaique ; Chanavayita 
+CLI00475;Ángela   Cáceres;39;Viudo; Freire ; Puerto Fonck 
+CLI00476;Magdalena   Herrera;23;Divorciado; Quillota ; Puerto Montt 
+CLI00477;Ámbar   Cortés;40;Viudo; Talca ; Pedregal 
+CLI00478;Diego   Castillo;24;Divorciado; Cucao ; Pucón 
+CLI00479;Manuel   Núñez;48;Viudo; Las Trincheras ; Ritoque 
+CLI00480;Luciano   Godoy;34;Soltero; El Molle ; Freire 
+CLI00481;Paula   Tapia;21;Soltero; Llifén ; Puerto Ingeniero Ibáñez 
+CLI00482;Ángel   Herrera;34;Viudo; Tirúa ; Victoria 
+CLI00483;Danae   Riquelme;24;Soltero; Frutillar Alto ;Las Trancas (Termas de Chillán) 
+CLI00484;Joaquín   Herrera;33;Viudo; Tulahuén ; Puerto Cisnes 
+CLI00485;Emily   Cárdenas;29;Divorciado; Reñaca ; Chanavayita 
+CLI00486;Danae   Bustos;33;Divorciado; Quillón ; Puerto Choque 
+CLI00487;Bruno   Ruiz;20;Casado; El Manzano ; Hornopirén 
+CLI00488;Isabella   Medina;25;Soltero;Pica ; San José de Maipo 
+CLI00489;Alexander   Sanhueza;29;Viudo; La Serena ; San Fabián de Alico 
+CLI00490;Maite   Carrasco;33;Divorciado; El Colorado ;Coquimbo 
+CLI00491;Gaspar   Martínez;29;Soltero; Frutillar ; Puerto Varas 
+CLI00492;Alejandro   Torres;43;Viudo; Vilches ; Puerto Aysén 
+CLI00493;Ashley   Valenzuela;18;Soltero; Chauquén ; El Manzano 
+CLI00494;Guillermo   Torres;23;Viudo; Quillota ; Rinconada 
+CLI00495;Tomás   Bravo;25;Divorciado; Puente Negro ; Tongoy 
+CLI00496;Amelia   Salazar;41;Casado; San Félix ; Los Vilos 
+CLI00497;Alexandra   Contreras;22;Casado; Algarrobo ;Quillaipe 
+CLI00498;Emily   Carrasco;40;Casado; Compu ; Pucón 
+CLI00499;Celeste   Alarcón;40;Divorciado; Manzanar ; Puerto Ingeniero Ibáñez 
+CLI00500;Dafne   Poblete;36;Viudo; Lebu ;Cobquecura 
+CLI00501;Renata   López;33;Casado; San Fabián de Alico ; Los Vilos 
+CLI00502;Millaray   Donoso;31;Divorciado; Concón ; Carelmapu 
+CLI00503;Álvaro   Parra;27;Viudo;Lontué ;Quillaipe 
+CLI00504;Elías   Morales;42;Casado;Pica ; Baños Morales 
+CLI00505;Sofía   Carvajal;18;Casado; Alto del Carmen ; Las Trincheras 
+CLI00506;Elizabeth   Araya;36;Viudo; Guanaqueros ; Pelluhue 
+CLI00507;Noelia   Valenzuela;29;Viudo; Villa Tehuelches ; La Serena 
+CLI00508;Dafne   López;19;Viudo; Las Vertientes ;La Laguna 
+CLI00509;Monserrat   Sepúlveda;40;Soltero;Alcohuaz ; Lican Ray 
+CLI00510;Dafne   Carrasco;24;Divorciado; Freire ; Puerto Aysén 
+CLI00511;Fernando   Sepúlveda;44;Viudo; La Serena ; Isla Negra 
+CLI00512;Patricio   Aguilera;29;Casado; Los Molinos ; San Pedro De Atacama
+CLI00513;Michelle   Venegas;41;Viudo; Llicaldad ; Quillón 
+CLI00514;Gonzalo   Carvajal;39;Viudo; Mehuín ;Cobquecura 
+CLI00515;Clemente   Carvajal;27;Viudo; Coyhaique ; Santa Cruz 
+CLI00516;Matías   Garrido;32;Viudo; Santa Juana ; Las Trincheras 
+CLI00517;Emilia   Peña;29;Casado; Talca ; Putre 
+CLI00518;Katalina   Valenzuela;39;Viudo; Calama ; Villa Tehuelches 
+CLI00519;Clemente   Garrido;48;Divorciado; Coronel ; Quillota 
+CLI00520;Monserrat   Sanhueza;22;Soltero; Lican Ray ; San José de Maipo 
+CLI00521;Millaray   Palma;38;Divorciado; Calama ; Frutillar Alto 
+CLI00522;Mayte   Gutiérrez;26;Viudo; Constitución ; Bahia Inglesa 
+CLI00523;Maite   Farías;46;Soltero; Tinguiririca ; Quillota 
+CLI00524;Javiera   Jiménez;49;Divorciado; Cunco ; Catripulli 
+CLI00525;Millaray   Navarro;37;Soltero; Constitución ; Villa Tehuelches 
+CLI00526;César   Lagos;26;Casado; Puente Negro ; Caleta Tortel 
+CLI00527;Amy   Toro;19;Divorciado;Puerto Saavedra ; Frutillar Alto 
+CLI00528;Catalina   Morales;47;Viudo; Olmué ; Puerto Bertrand 
+CLI00529;Elías   Aravena;23;Viudo; Puerto Bertrand ; Ancud 
+CLI00530;Anaís   García;28;Divorciado; La Tirana ; Rinconada 
+CLI00531;Mia   Fuentes;25;Viudo; Villa Alemana; El Melocotón 
+CLI00532;Santiago   Maldonado;49;Soltero; Victoria ; Pichilemu 
+CLI00533;Denisse   Gutiérrez;18;Soltero; Maitencillo ; Pichilemu 
+CLI00534;Antonia   Vásquez;37;Viudo;Pica ; La Junta 
+CLI00535;Nicolás   Vidal;32;Casado; Puyuhuapi ; Ancud 
+CLI00536;Guillermo   Sánchez;40;Divorciado; Calama ; Iquique 
+CLI00537;Francisco   Carrasco;22;Divorciado; Los Molles ; Punta De Tralca 
+CLI00538;Cristopher   Alarcón;18;Divorciado; Los Vilos ; Colonia Lautaro 
+CLI00539;Esperanza   Gómez;32;Soltero; Rangue ; Panimavida 
+CLI00540;Samantha   Vergara;49;Divorciado; Puerto Natales ; Los Molinos 
+CLI00541;Demian   Lagos;20;Viudo; Pichilemu ; Santa Cruz 
+CLI00542;Kiara   Martínez;34;Viudo; Las Cruces ; Lican Ray 
+CLI00543;Valentín   Bustamante;49;Viudo; El Médano ; La Junta 
+CLI00544;Abigail   Miranda;27;Soltero; Puerto Cárdenas ; Taltal 
+CLI00545;Gabriel   Bustos;22;Casado; Coronel ; Villa Tehuelches 
+CLI00546;Abigail   Donoso;50;Casado; Pucón ; Carelmapu 
+CLI00547;Violeta   García;23;Divorciado; Pucón ; Punta Choros 
+CLI00548;Mathías   Fuentes;24;Casado; Playa La Virgen ; Dichato 
+CLI00549;Elisa   Sepúlveda;26;Casado; Coyhaique ; Angol 
+CLI00550;Montserrat   Moreno;20;Soltero; Cucao ; Futaleufú 
+CLI00551;Montserrat   Valdés;21;Casado; Limache ; Coyhaique 
+CLI00552;Facundo   Araya;47;Viudo; Tomé ; Puerto Cárdenas 
+CLI00553;Leonor   Ortiz;30;Divorciado; Puyuhuapi ; Tulahuén 
+CLI00554;Samuel   Carvajal;41;Divorciado; Santa Cruz ; Puerto Cárdenas 
+CLI00555;Elías   Morales;37;Soltero;Alcohuaz ; Recinto 
+CLI00556;Pascal   Toro;50;Soltero; Victoria ; Angol 
+CLI00557;Violeta   Carvajal;28;Soltero; Quintay ; Carelmapu 
+CLI00558;Leonardo   Gutiérrez;47;Soltero; Los Molles ; Cucao 
+CLI00559;Esteban   Rodríguez;37;Viudo; Las Vertientes ; El Médano 
+CLI00560;Esperanza   Fuentes;37;Divorciado; Alto del Carmen ; Maitencillo 
+CLI00561;Montserrat   Torres;36;Viudo;Quillaipe ; Tulahuén 
+CLI00562;Mathías   Navarro;24;Viudo; Pisco Elqui ;Metri 
+CLI00563;Ámbar   Sánchez;35;Soltero; Las Vertientes ; Viña Del Mar
+CLI00564;Isaías   Cerda;19;Casado; Maitencillo ; El Quisco 
+CLI00565;Maite   Castro;29;Divorciado;Rivadavia ; Colonia Lautaro 
+CLI00566;Alan   Silva;35;Divorciado; Melipilla ; El Médano 
+CLI00567;Valentín   Henríquez;20;Viudo; Rangue ; Las Cabras 
+CLI00568;Matilde   Tapia;32;Viudo; Santa Olga ; Llifén 
+CLI00569;Amaro  Soto;29;Viudo; Puerto Ingeniero Ibáñez ; La Herradura 
+CLI00570;Ricardo   Riquelme;43;Viudo; Algarrobo ; El Tabo 
+CLI00571;Génesis   Castillo;36;Divorciado; Cucao ; Cucao 
+CLI00572;Antonella   Godoy;26;Viudo; Alto del Carmen ; Panguipulli 
+CLI00573;Demian   Sánchez;37;Viudo; Dichato ; Catripulli 
+CLI00574;Paula   Maldonado;37;Divorciado; Cochiguaz ; Isla de Maipo 
+CLI00575;Sofía   Bravo;19;Divorciado; Vicuña ; Dichato 
+CLI00576;Fernando   Sánchez;20;Soltero;Pica ; Mehuín 
+CLI00577;Danae   Palma;32;Viudo; Hornopirén ; El Melocotón 
+CLI00578;Krishna   Fernández;43;Soltero; Quillón ; Osorno 
+CLI00579;Daniel   Rodríguez;43;Viudo; Chile Chico ; Pichidangui 
+CLI00580;Maite   Vega;22;Soltero; Viña Del Mar; Compu 
+CLI00581;Amanda   Flores;36;Casado; Quintay ; Quenuir 
+CLI00582;Jorge   Escobar;28;Viudo; Constitución ; Huasco 
+CLI00583;José   Vidal;39;Divorciado; Valdivia ; Carelmapu 
+CLI00584;Julieta   Medina;50;Soltero; Vilches ; El Quisco 
+CLI00585;Daniela   Vera;48;Viudo; Juan Lopez ; Concón 
+CLI00586;Alexis   Salazar;31;Viudo; Villa Alemana;Alcohuaz 
+CLI00587;Elizabeth   Bustos;29;Soltero; Huasco ; Molco 
+CLI00588;Emiliano   Hernández;35;Casado; Villa Tehuelches ;Las Trancas (Termas de Chillán) 
+CLI00589;Julián   Cáceres;35;Casado; Reñaca ; Melipilla 
+CLI00590;Martín   Carvajal;40;Casado; San Fabián de Alico ;Puerto Guadal 
+CLI00591;Jorge   Farías;33;Divorciado; Los Vilos ; Victoria 
+CLI00592;Amalia   Pino;43;Soltero; Caburga ; Panimavida 
+CLI00593;Isabella   Morales;32;Divorciado; La Junta ; Santa Cruz 
+CLI00594;Samantha   Pizarro;23;Casado; Viña Del Mar; Baños Morales 
+CLI00595;Rafaela   Godoy;44;Soltero; Puerto Cárdenas ; La Herradura 
+CLI00596;León   Figueroa;47;Viudo; Futaleufú ; Puente Negro 
+CLI00597;Simón   Jiménez;28;Casado; Isla R. Crusoe (Juan Fernández) ; Olmué 
+CLI00598;Mathías   Molina;28;Viudo; Pichidangui ; Chauquén 
+CLI00599;Javiera   Orellana;28;Casado; El Quisco ; Viña Del Mar
+CLI00600;Kevin   Miranda;41;Soltero; Saltos del Laja ;Puerto Guadal 
+CLI00601;Baltazar   Ortega;19;Viudo; Vichuquén ; Taltal 
+CLI00602;Agustina   Olivares;34;Soltero; Llicaldad ; Guanaqueros 
+CLI00603;Montserrat   Ortega;45;Soltero;Alcohuaz ; Quenuir 
+CLI00604;Michelle   Escobar;41;Soltero; Puerto Montt ; La Herradura 
+CLI00605;Amalia   Gómez;28;Soltero; Llicaldad ; Talca 
+CLI00606;César   Cárdenas;24;Viudo; Lebu ; Chauquén 
+CLI00607;Josefa   Carrasco;25;Casado; Las Vertientes ; Melipilla 
+CLI00608;Emma   Aravena;27;Casado;Cobquecura ;Lontué 
+CLI00609;Colomba   Bravo;41;Casado; El Médano ;Puerto Guadal 
+CLI00610;Ignacio   Romero;29;Soltero; Santa Cruz ; Coronel 
+CLI00611;Kevin   Silva;28;Divorciado; Peleco ; Termas del Flaco 
+CLI00612;Manuel   Vargas;25;Viudo;Torres Del Paine ;Entre Lagos 
+CLI00613;Génesis   Hernández;42;Viudo; El Tabo ; Cunco 
+CLI00614;Agustín   Bustos;22;Viudo; Angol ; Termas del Flaco 
+CLI00615;Dylan   Romero;21;Soltero; Osorno ; Las Trincheras 
+CLI00616;Krishna   Castro;32;Casado; Puerto Natales ; Los Molinos 
+CLI00617;Thiare   Morales;19;Divorciado; Quillota ; Putre 
+CLI00618;Gaspar  Soto;45;Casado; Isla R. Crusoe (Juan Fernández) ; Compu 
+CLI00619;Ignacia   Sánchez;24;Divorciado; Tirúa ; Constitución 
+CLI00620;Consuelo   Poblete;32;Soltero; Calama ; Pozo Almonte 
+CLI00621;Colomba   Peña;41;Divorciado;Cobquecura ; Las Trincheras 
+CLI00622;Matías   Godoy;33;Viudo; El Manzano ; Puerto Cisnes 
+CLI00623;Gabriela   Sánchez;40;Viudo;Las Trancas (Termas de Chillán) ;Pica 
+CLI00624;Martín   Bravo;42;Soltero; Valdivia ; Coronel 
+CLI00625;Anahís   Fernández;18;Soltero; Valparaíso ; Piruquina 
+CLI00626;Fernanda   Alarcón;44;Divorciado; Quenuir ; Guanaqueros 
+CLI00627;Emilio   Pizarro;45;Viudo; Iloca;Alcohuaz 
+CLI00628;Victoria   Guerrero;38;Viudo; Panimavida ; Vichuquén 
+CLI00629;Amy   Yáñez;23;Soltero; Paihuano ; Vilches 
+CLI00630;Ian   Palma;25;Casado; Limache ; Chile Chico 
+CLI00631;Monserrat  Soto;33;Divorciado;La Laguna ; Los Molinos 
+CLI00632;Damián   Vásquez;30;Casado; El Quisco ; Pozo Almonte 
+CLI00633;Eduardo   Molina;47;Divorciado; Puerto Bertrand ; Rangue 
+CLI00634;Catalina   Miranda;32;Casado; Puyuhuapi ; Ensenada 
+CLI00635;Kiara   Jara;33;Casado; Molco ; Villa Alemana
+CLI00636;Amelia   Herrera;27;Casado; Puerto Choque ; El Manzano 
+CLI00637;Joaquín   Álvarez;30;Casado; Puerto Pirihueico ; Curanipe 
+CLI00638;Marcelo   García;27;Soltero; Villa Alemana; Punta De Tralca 
+CLI00639;Carla   Yáñez;38;Soltero; Puerto Choque ; Santa Cruz 
+CLI00640;Sergio   Rivera;18;Viudo; Dichato ; Peleco 
+CLI00641;Rocío   Araya;49;Soltero; Ritoque ; Panguipulli 
+CLI00642;Danae   Ramírez;31;Divorciado;Las Trancas (Termas de Chillán) ;El Guayacán 
+CLI00643;Demian   Rodríguez;34;Viudo; Recinto ; Punta Arenas 
+CLI00644;Anahís   Valenzuela;19;Casado; Ensenada ; Iquique 
+CLI00645;Andrés   Ramírez;50;Soltero; Villa Tehuelches ; Futrono 
+CLI00646;Amy   Tapia;25;Divorciado; Puerto Varas ; Colonia Lautaro 
+CLI00647;Tomás   Cerda;42;Soltero; Llicaldad ; Chanavayita 
+CLI00648;Mateo   Sanhueza;31;Viudo; Piruquina ; Quenuir 
+CLI00649;Monserrat   Sanhueza;41;Viudo; Vilches ; San Félix 
+CLI00650;Consuelo   Gómez;48;Viudo; Puerto Fonck ;Rivadavia 
+CLI00651;Óscar   Escobar;38;Casado; Nercón ; Totoralillo 
+CLI00652;Elías   Guerrero;37;Soltero; Valdivia ; Taltal 
+CLI00653;Ángel   Donoso;46;Casado; Recinto ; Constitución 
+CLI00654;Alexis   Escobar;24;Divorciado; Taltal ;Metri 
+CLI00655;Mariana   Torres;44;Divorciado; Mehuín ; Ilihue 
+CLI00656;Amparo   Carrasco;38;Divorciado;Torres Del Paine ; Juan Lopez 
+CLI00657;Joaquín   Orellana;38;Soltero;La Laguna ; Pichilemu 
+CLI00658;León   Aravena;24;Casado; Futrono ; Isla R. Crusoe (Juan Fernández) 
+CLI00659;Mauricio   López;43;Divorciado; Manzanar ; La Herradura 
+CLI00660;Cristián   Escobar;39;Divorciado; San Félix ;Alcohuaz 
+CLI00661;Jesús   Valdés;24;Viudo; Ilihue ; Talca 
+CLI00662;Antonella   Vera;31;Soltero; Tomé ; Quintay 
+CLI00663;Maite   Romero;47;Casado; El Manzano ; Chanavayita 
+CLI00664;Julián   Maldonado;26;Viudo; Tulahuén ; Curanipe 
+CLI00665;Luciana   Rodríguez;49;Soltero;Cahuil ;El Guayacán 
+CLI00666;María   Miranda;43;Viudo; San Fabián de Alico ; Caleta Tortel 
+CLI00667;Javiera   García;21;Casado; San Fabián de Alico ; Dichato 
+CLI00668;Alan   Hernández;20;Viudo; El Melocotón ; Quintay 
+CLI00669;Guillermo   Olivares;48;Soltero; Isla de Maipo ; El Boyenar 
+CLI00670;Javiera   Leiva;24;Divorciado; Puyuhuapi ; Isla Negra 
+CLI00671;Jean   Núñez;33;Divorciado; San Félix ; Santa Olga 
+CLI00672;Francisca   Rivera;34;Soltero;Metri ; Dichato 
+CLI00673;Ámbar   Navarrete;46;Divorciado; Paihuano ; Santa Cruz 
+CLI00674;Valentina   Vidal;40;Soltero; Vicuña ; Pichilemu 
+CLI00675;Ignacio   Lagos;31;Viudo;Torres Del Paine ; Putre 
+CLI00676;Sergio   Bravo;50;Soltero; Cunco ; Lago Ranco 
+CLI00677;Lucas   Parra;21;Divorciado; Puerto Bertrand ; Mehuín 
+CLI00678;Óscar   Salinas;27;Casado;Torres Del Paine ; Dichato 
+CLI00679;Luis   Jiménez;39;Casado; Alto del Carmen ; La Herradura 
+CLI00680;Gonzalo   Cáceres;21;Soltero; Victoria ; Putre 
+CLI00681;Santiago   Miranda;29;Soltero; San Félix ; Chauquén 
+CLI00682;Camilo   Farías;34;Viudo; Pedregal ;Torres Del Paine 
+CLI00683;Leonor   Donoso;31;Soltero; Punta Choros ; Coihaique 
+CLI00684;Guillermo   Farías;21;Soltero; Punta Arenas ; Caldera 
+CLI00685;Constanza   Donoso;29;Casado; Puerto Cisnes ; Santa Juana 
+CLI00686;Carolina   Ortega;50;Viudo;Lontué ; Vilches 
+CLI00687;Josefina   Ortega;36;Soltero; Molco ; Punta De Tralca 
+CLI00688;Ashley   Bustamante;49;Divorciado; Vichuquén ; Puerto Pirihueico 
+CLI00689;Rafaella   Fernández;20;Soltero; Laguna Verde ; La Junta 
+CLI00690;Alexandra   Pizarro;43;Divorciado; Caburga ; Panimavida 
+CLI00691;Manuel   Guzmán;18;Viudo; El Boyenar ; Futaleufú 
+CLI00692;Emilio   Herrera;37;Viudo; Chanavayita ; Santa Cruz 
+CLI00693;Javier   Pizarro;50;Casado;Alcohuaz ; Olmué 
+CLI00694;Carolina   Donoso;43;Soltero; Las Cruces ; Ritoque 
+CLI00695;Elías   Castro;32;Casado; Victoria ; Playa La Virgen 
+CLI00696;Gustavo   Rodríguez;25;Soltero; Buchupureo ;Cahuil 
+CLI00697;Matilda   Castro;27;Divorciado; San Pedro De Atacama; Alto del Carmen 
+CLI00698;Francisco   Zúñiga;36;Viudo; Tulahuén ; Puyuhuapi 
+CLI00699;Demian   Vargas;50;Casado;Las Trancas (Termas de Chillán) ; Curacautín 
+CLI00700;Fernanda   Moreno;30;Casado; Puerto Choque ;Entre Lagos 
+CLI00701;Agustín   Vargas;32;Soltero; Puerto Fonck ; La Tirana 
+CLI00702;Antonella   Gutiérrez;27;Divorciado; Ensenada ; Coyhaique 
+CLI00703;Maura   Valenzuela;19;Divorciado; Tongoy ; Futaleufú 
+CLI00704;Paz   Ortega;50;Viudo;Alcohuaz ; Las Vertientes 
+CLI00705;Isidora   Tapia;44;Soltero; Huasco ; Taltal 
+CLI00706;Matilde   Pino;45;Divorciado; Vichuquén ; Compu 
+CLI00707;Baltazar   Bustos;32;Casado; Puerto Choque ; Victoria 
+CLI00708;Violeta   Medina;42;Divorciado; Punta Arenas ; Rinconada 
+CLI00709;Pedro   Núñez;39;Divorciado; Mehuín ; Huasco 
+CLI00710;Aaron   Molina;18;Divorciado; La Junta ; Chanavayita 
+CLI00711;José   Leiva;24;Viudo; Osorno ; Iloca
+CLI00712;Iván   Navarro;42;Viudo; Baños Morales ; Quillón 
+CLI00713;Emilio   Guzmán;32;Viudo;Quillaipe ; Frutillar 
+CLI00714;Pascal   Maldonado;24;Soltero;Entre Lagos ; Mamiña 
+CLI00715;Alejandra   Cáceres;50;Viudo; Dichato ;Cobquecura 
+CLI00716;Lucas   Carrasco;32;Viudo; Ritoque ; Coyhaique 
+CLI00717;Dylan   Aguilera;50;Casado; Ritoque ; Ancud 
+CLI00718;Clemente   Guzmán;29;Casado; Coyhaique ; Pisco Elqui 
+CLI00719;Anahís   Toro;27;Casado; Manzanar ; Puerto Varas 
+CLI00720;Amparo   Valenzuela;48;Casado; Baños Morales ; Constitución 
+CLI00721;Lucía   Alarcón;44;Soltero; Coyhaique ; Las Cabras 
+CLI00722;Fernanda   Godoy;36;Viudo; Puerto Natales ;Las Trancas (Termas de Chillán) 
+CLI00723;Esteban   Núñez;37;Divorciado; Manzanar ; Mamiña 
+CLI00724;Antonella   Yáñez;24;Viudo; Los Molinos ; Carelmapu 
+CLI00725;Ashley   Godoy;39;Casado; San Alfonso ; Lebu 
+CLI00726;Elisa   Vásquez;44;Casado; Puente Negro ; Malalcahuello 
+CLI00727;Victoria   Vásquez;23;Divorciado; Laguna Verde ; San Pedro De Atacama
+CLI00728;Tomás   Reyes;41;Viudo; Rangue ; Carelmapu 
+CLI00729;Josefa   Martínez;24;Casado; Curacautín ; Futaleufú 
+CLI00730;Vicente  Acuña;42;Soltero; Talca ; Compu 
+CLI00731;Génesis   Vera;41;Divorciado; Niebla ; Saltos del Laja 
+CLI00732;Génesis   Tapia;39;Viudo; Compu ;Puerto Saavedra 
+CLI00733;Jorge   Yáñez;50;Divorciado; Reñaca ; Puerto Lloles 
+CLI00734;León   Castro;19;Soltero; Manzanar ; Pozo Almonte 
+CLI00735;Alonso   Aravena;19;Divorciado; Puerto Pirihueico ;La Laguna 
+CLI00736;Carlos   Hernández;32;Viudo; Coyhaique ; Villa Alemana
+CLI00737;Dafne   Araya;33;Divorciado; Lago Ranco ; Villa Tehuelches 
+CLI00738;Nicolás   Molina;46;Viudo; San Félix ;Rivadavia 
+CLI00739;Martín   Donoso;50;Soltero; Los Vilos ; Las Cabras 
+CLI00740;Axel   Parra;36;Soltero; Vichuquén ; El Manzano 
+CLI00741;Celeste   Bustamante;33;Casado;Quillaipe ; Puerto Fonck 
+CLI00742;Lukas   Jiménez;42;Casado; Termas del Flaco ; Valparaíso 
+CLI00743;Fernanda   Henríquez;44;Soltero; Río Puelo ; Villa Tehuelches 
+CLI00744;Ángel   Garrido;41;Casado; Curacautín ; Molco 
+CLI00745;Javier   Gutiérrez;22;Viudo; Isla R. Crusoe (Juan Fernández) ; Puerto Montt 
+CLI00746;Antonella   Hernández;36;Divorciado; Termas del Flaco ; Futaleufú 
+CLI00747;Felipe   Escobar;28;Viudo; La Tirana ; Isla de Maipo 
+CLI00748;Maite   López;49;Viudo; San Pedro De Atacama; Los Molles 
+CLI00749;Ricardo   Cerda;25;Soltero; Quenuir ; Coñaripe 
+CLI00750;Anaís   Morales;40;Viudo; Melipilla ; Caburga 
+CLI00751;Anahís   Pino;39;Divorciado; Pozo Almonte ; Hornopirén 
+CLI00752;Mayte   Zúñiga;43;Divorciado; Carelmapu ; Victoria 
+CLI00753;Carlos   Medina;18;Viudo; La Herradura ; Punta Choros 
+CLI00754;Josefa   Campos;40;Divorciado; El Tabo ; Frutillar 
+CLI00755;Magdalena   Vidal;40;Casado;Lontué ; Puerto Bertrand 
+CLI00756;Julián  Acuña;23;Soltero; Guanaqueros ; Angol 
+CLI00757;Guillermo   Ramírez;26;Soltero; Tulahuén ; Ancud 
+CLI00758;David   Silva;28;Casado; El Manzano ; Cochrane 
+CLI00759;Ian   Figueroa;41;Casado; Chauquén ; Los Molinos 
+CLI00760;Ángel   Rodríguez;41;Divorciado; Ritoque ;Lontué 
+CLI00761;Ámbar   Valdés;38;Viudo; Osorno ; Colonia Lautaro 
+CLI00762;Isabel   Miranda;21;Viudo; Las Cabras ; Cochiguaz 
+CLI00763;Michelle   Guzmán;42;Viudo; Santa Juana ; Quillón 
+CLI00764;Ignacio   Vega;20;Casado; Playa La Virgen ; Puerto Cárdenas 
+CLI00765;Aaron   Cortés;42;Viudo; Chile Chico ; Isla Negra 
+CLI00766;Constanza   Ortega;26;Soltero; Malalcahuello ; San Alfonso 
+CLI00767;Franco   Maldonado;33;Viudo; Maitencillo ; Vichuquén 
+CLI00768;Santiago   Ortega;47;Casado; Panguipulli ; El Quisco 
+CLI00769;Violeta   Figueroa;24;Divorciado; Termas del Flaco ;Coquimbo 
+CLI00770;Carla   Alarcón;31;Divorciado;El Guayacán ;Cahuil 
+CLI00771;Jesús   Vega;22;Soltero; Concón ; Pedregal 
+CLI00772;Fernando   Carrasco;47;Viudo; Caldera ; Llifén 
+CLI00773;Colomba   Medina;23;Soltero; Lebu ; Panguipulli 
+CLI00774;Ámbar   Garrido;49;Casado; Mamiña ; El Manzano 
+CLI00775;Alejandro   Gutiérrez;34;Viudo; Alto del Carmen ; Caldera 
+CLI00776;Olivia   Fernández;27;Soltero; Frutillar Alto ; Pichilemu 
+CLI00777;Montserrat   Araya;40;Casado; Santa Cruz ; Vicuña 
+CLI00778;Fernanda   Vega;25;Divorciado; Paihuano ; Villarrica 
+CLI00779;Simón   Ortiz;29;Casado; Villa Tehuelches ; Victoria 
+CLI00780;Javier   Gallardo;32;Viudo; Buchupureo ; Calama 
+CLI00781;Anaís   Farías;31;Divorciado; Pisco Elqui ; Molco 
+CLI00782;Santiago   Aguilera;23;Soltero; Pedregal ; Las Trincheras 
+CLI00783;Martina   Alvarado;44;Casado;Rivadavia ; Isla de Maipo 
+CLI00784;Emilia   Flores;43;Casado; Puerto Fonck ; Pucón 
+CLI00785;Alondra   Vega;39;Soltero; La Herradura ; Tulahuén 
+CLI00786;Sara   Farías;42;Soltero; Valparaíso ; Huasco 
+CLI00787;Diego   Ortega;39;Divorciado; Tomé ; Ilihue 
+CLI00788;Emiliano   Toro;22;Viudo; Puyuhuapi ; Pichidangui 
+CLI00789;Matilda   Valdés;41;Casado; Puerto Cárdenas ; Tongoy 
+CLI00790;Monserrat   Hernández;28;Soltero; San Alfonso ; Calama 
+CLI00791;Vicente   Leiva;36;Soltero; Llicaldad ; Constitución 
+CLI00792;Gonzalo   Castro;45;Divorciado; Valdivia ; Frutillar Alto 
+CLI00793;Paz   Cárdenas;28;Divorciado; Freire ;Alcohuaz 
+CLI00794;Dante   Cerda;41;Divorciado; Coihaique ; Constitución 
+CLI00795;Isidora   Campos;48;Soltero; Punta De Tralca ; Las Cruces 
+CLI00796;Mayra   Jiménez;45;Viudo; Paihuano ; San Fabián de Alico 
+CLI00797;Óscar   Venegas;24;Divorciado; Tinguiririca ; Laguna Verde 
+CLI00798;Monserrat   Fuentes;19;Soltero; Tongoy ; El Colorado 
+CLI00799;Mia   Lagos;39;Viudo; Río Bueno ; San Pedro De Atacama
+CLI00800;Dylan   Bravo;46;Casado; Talca ; Chauquén 
+CLI00801;Belén   Reyes;42;Viudo; Puerto Montt ; El Médano 
+CLI00802;Camila   Martínez;28;Divorciado; Tirúa ; Piruquina 
+CLI00803;Celeste   Ortega;30;Viudo; Lican Ray ; El Melocotón 
+CLI00804;Alexandra   Flores;38;Soltero; San Félix ; Puerto Fonck 
+CLI00805;Pedro   Sepúlveda;22;Soltero; Ensenada ; Villa Alemana
+CLI00806;Josefa   Bravo;26;Divorciado; Los Molinos ; El Boyenar 
+CLI00807;Javiera   Saavedra;47;Viudo; Caburga ; Villarrica 
+CLI00808;Ángel   Fernández;46;Casado; Panimavida ; Castro 
+CLI00809;Anahís   Álvarez;49;Casado; Chauquén ; Valdivia 
+CLI00810;Violeta   Godoy;30;Casado; Niebla ;Metri 
+CLI00811;Sebastián   Cárdenas;18;Viudo; Hornopirén ; Puerto Fonck 
+CLI00812;Consuelo   Ortega;32;Soltero;Cobquecura ; Ritoque 
+CLI00813;Patricio   Guerrero;29;Divorciado;La Laguna ; Mamiña 
+CLI00814;Camila   Toro;33;Soltero; Putre ; Chauquén 
+CLI00815;Gonzalo   Gómez;44;Divorciado; Ritoque ; Panimavida 
+CLI00816;Montserrat   Fernández;20;Soltero; Niebla ;Quillaipe 
+CLI00817;Francisca   Carrasco;47;Viudo; Villa Tehuelches ;Metri 
+CLI00818;Isidora   Rivera;34;Casado; Valparaíso ; Coronel 
+CLI00819;Victoria   Molina;49;Viudo; Calama ; La Herradura 
+CLI00820;Demian   García;41;Viudo; Coñaripe ; Coronel 
+CLI00821;Matilde   Aravena;37;Divorciado; Puente Negro ; Molco 
+CLI00822;Julián   Poblete;30;Soltero; Termas del Flaco ; Llifén 
+CLI00823;Alan   Espinoza;26;Casado; Puerto Natales ; Ensenada 
+CLI00824;Demian   Alarcón;42;Viudo; Castro ; Lebu 
+CLI00825;Demian   Figueroa;40;Casado; Guanaqueros ; Melipilla 
+CLI00826;Elizabeth   Alvarado;34;Viudo;Alcohuaz ; Pichilemu 
+CLI00827;Álvaro   Sanhueza;31;Divorciado; Punta De Tralca ; Saltos del Laja 
+CLI00828;César   Hernández;37;Soltero; San Pedro De Atacama; Punta De Tralca 
+CLI00829;David  Acuña;36;Casado; El Colorado ;Coquimbo 
+CLI00830;Gaspar   Pino;48;Soltero; Coihaique ;Entre Lagos 
+CLI00831;Camilo   Contreras;42;Casado; San José de Maipo ; Frutillar 
+CLI00832;Dante   Valdés;30;Divorciado; Cunco ; Chauquén 
+CLI00833;Cristián  Acuña;24;Viudo; Baños Morales ; Coronel 
+CLI00834;Pascal   Vidal;28;Viudo; Pichidangui ; Puerto Bertrand 
+CLI00835;Carlos   Vásquez;50;Casado; Puerto Aysén ; Piruquina 
+CLI00836;Baltazar   Medina;36;Viudo; Curacautín ; Los Vilos 
+CLI00837;Luis   Pizarro;21;Soltero; Catripulli ;Metri 
+CLI00838;Javier   Vera;47;Viudo; San Alfonso ; Vilches 
+CLI00839;Millaray   Cerda;32;Soltero; Panimavida ; Pisco Elqui 
+CLI00840;Facundo   Pizarro;25;Viudo; Juan Lopez ; La Junta 
+CLI00841;Dylan   Álvarez;37;Soltero; Villa O'Higgins ; Molco 
+CLI00842;Carlos   Cerda;39;Casado; Chanavayita ; Río Puelo 
+CLI00843;León   Morales;34;Soltero; Puerto Montt ; El Molle 
+CLI00844;Patricio   Figueroa;40;Casado; Tinguiririca ; Manzanar 
+CLI00845;Maite   Carrasco;27;Soltero; Cochrane ; Totoralillo 
+CLI00846;Isabella   Silva;36;Casado; Castro ; Recinto 
+CLI00847;Ema   Castro;38;Viudo; Puerto Ingeniero Ibáñez ; Baños Morales 
+CLI00848;Emilia   Navarro;41;Divorciado; Quintay ; El Manzano 
+CLI00849;Anaís   Espinoza;38;Soltero; Puerto Fonck ; Santa Cruz 
+CLI00850;Daniel   Romero;23;Divorciado; Taltal ; Constitución 
+CLI00851;Ricardo   Herrera;46;Soltero; Vichuquén ; Iloca
+CLI00852;Rodrigo   Vega;44;Casado; Pichidangui ; Isla R. Crusoe (Juan Fernández) 
+CLI00853;Clemente   López;27;Casado; Victoria ; Calama 
+CLI00854;Kevin   Herrera;36;Divorciado; Melipilla ; Saltos del Laja 
+CLI00855;Ámbar   Olivares;23;Viudo; Concón ; Paihuano 
+CLI00856;David   Palma;45;Viudo; Putre ; Las Cruces 
+CLI00857;Magdalena   Flores;18;Viudo; Villa O'Higgins ;Cobquecura 
+CLI00858;Javier   Gallardo;43;Soltero; Lebu ; Manzanar 
+CLI00859;León   Tapia;21;Viudo; Lican Ray ; Cunco 
+CLI00860;Fernando   Saavedra;42;Soltero; Tongoy ; Ritoque 
+CLI00861;Franco   Medina;19;Soltero; Colonia Lautaro ; Cochiguaz 
+CLI00862;Carolina   Gutiérrez;29;Divorciado;Puertecillo ; Panimavida 
+CLI00863;Josué   Álvarez;39;Divorciado; Puerto Fonck ; El Molle 
+CLI00864;Rafaella   Bustos;26;Divorciado; Osorno ; Totoralillo 
+CLI00865;Iván   Bustamante;31;Viudo; Viña Del Mar; Puerto Bertrand 
+CLI00866;Gonzalo   Martínez;27;Casado; Puyuhuapi ; Taltal 
+CLI00867;Mathías   Sáez;29;Divorciado; Isla R. Crusoe (Juan Fernández) ;Lontué 
+CLI00868;Ignacio   Ramírez;20;Soltero; Angol ; Punta Arenas 
+CLI00869;Sara   Torres;32;Divorciado; Paihuano ; Catripulli 
+CLI00870;Samantha   Morales;18;Divorciado; Victoria ; Dichato 
+CLI00871;Miguel   Pizarro;25;Casado; Maitencillo ; San José de Maipo 
+CLI00872;Rayén   Castillo;40;Viudo; Isla Negra ; Villa Alemana
+CLI00873;Danae   Jara;36;Casado; Catripulli ; Catripulli 
+CLI00874;Florencia   Miranda;42;Soltero; Los Molinos ; Vicuña 
+CLI00875;Cristopher   Parra;34;Divorciado; Frutillar Alto ; Reñaca 
+CLI00876;Gaspar   Rodríguez;29;Casado; Ilihue ;Alcohuaz 
+CLI00877;Thomas   Cortés;49;Soltero; Río Bueno ;Puerto Saavedra 
+CLI00878;Lucía   Romero;45;Divorciado; Tinguiririca ; Totoralillo 
+CLI00879;Ámbar   Miranda;19;Casado; Concón ;Puerto Saavedra 
+CLI00880;Gabriela   Pino;38;Soltero; Las Cabras ; Puerto Natales 
+CLI00881;Maite   Aravena;45;Divorciado; Pelluhue ; Puerto Ingeniero Ibáñez 
+CLI00882;Katalina   Sáez;23;Casado; Laguna Verde ; Algarrobo 
+CLI00883;Rocío   Martínez;25;Soltero; Rinconada ; Caburga 
+CLI00884;Maite   Salinas;37;Casado; Putre ; Tinguiririca 
+CLI00885;León   Fernández;32;Soltero; Pisco Elqui ; Pichidangui 
+CLI00886;Leonor   Henríquez;24;Casado; Paihuano ; Coyhaique 
+CLI00887;Baltazar   Araya;49;Divorciado; Coyhaique ; Quenuir 
+CLI00888;José   Orellana;48;Soltero; San Fabián de Alico ; San Fabián de Alico 
+CLI00889;Carlos   Bravo;43;Divorciado; Angol ; Puerto Choque 
+CLI00890;Thomas   Guzmán;33;Casado; Coronel ;Quillaipe 
+CLI00891;Patricio   Cáceres;25;Viudo; Tirúa ; El Manzano 
+CLI00892;Pascal   Henríquez;33;Soltero; Juan Lopez ; Puerto Aysén 
+CLI00893;Mariana   Farías;49;Divorciado; Río Bueno ; Las Trincheras 
+CLI00894;Colomba   Vargas;31;Casado;El Guayacán ; Pucón 
+CLI00895;Emma   Yáñez;35;Soltero; El Manzano ; Playa La Virgen 
+CLI00896;Francisca   Carrasco;42;Soltero; Baños Morales ; Pucón 
+CLI00897;Iván   Carrasco;21;Divorciado; Ilihue ; Villarrica 
+CLI00898;León   Venegas;30;Divorciado; Cucao ; Futrono 
+CLI00899;Agustina   Salazar;42;Soltero; Concón ; Talca 
+CLI00900;Lucas   Olivares;37;Casado; Malalcahuello ; Curacautín 
+CLI00901;José  Acuña;46;Viudo; Ensenada ; Caburga 
+CLI00902;Iván   Cárdenas;44;Soltero; Puyuhuapi ; Santa Juana 
+CLI00903;Trinidad   Olivares;38;Divorciado; San José de Maipo ; El Médano 
+CLI00904;Mateo   Contreras;18;Soltero; Bahia Inglesa ; Iquique 
+CLI00905;Alondra   Hernández;42;Soltero; Las Cruces ; Puerto Lloles 
+CLI00906;Samuel   Aguilera;48;Soltero; Las Cruces ; Curacautín 
+CLI00907;Mayte   Campos;31;Divorciado; Pichilemu ; El Médano 
+CLI00908;Leonardo   Tapia;30;Casado; Niebla ; Puerto Pirihueico 
+CLI00909;Elías   Olivares;48;Viudo; La Tirana ; Victoria 
+CLI00910;Alexis   Olivares;47;Viudo; Tinguiririca ; Las Cruces 
+CLI00911;Olivia   Medina;48;Casado; Constitución ; Pelluhue 
+CLI00912;Ricardo   Salazar;25;Soltero; Puerto Ingeniero Ibáñez ; Guanaqueros 
+CLI00913;Amelia   Navarrete;34;Casado; Pelluhue ; Paihuano 
+CLI00914;Krishna   Carrasco;43;Soltero; Río Bueno ;Puertecillo 
+CLI00915;Lukas   Vergara;35;Viudo; Futaleufú ;Lontué 
+CLI00916;Valentina   Venegas;48;Viudo; Chanavayita ; Punta Arenas 
+CLI00917;Sara  Soto;23;Viudo; Valparaíso ; Puente Negro 
+CLI00918;Miguel   Gutiérrez;27;Soltero; San José de Maipo ; Santa Juana 
+CLI00919;Víctor   Gómez;23;Soltero;El Guayacán ; Totoralillo 
+CLI00920;Dominga   Escobar;28;Divorciado;Pica ; Panimavida 
+CLI00921;Manuel   Jiménez;38;Divorciado;Coquimbo ; Rinconada 
+CLI00922;Millaray  Soto;20;Soltero; Baños Morales ; Vilches 
+CLI00923;Javiera   Tapia;33;Casado; El Boyenar ; Río Puelo 
+CLI00924;Francisco   Salinas;21;Divorciado; Pelluhue ; Puerto Lloles 
+CLI00925;Josefina   Saavedra;45;Soltero; Molco ; Niebla 
+CLI00926;Cristopher   Garrido;40;Viudo; Panimavida ; Piruquina 
+CLI00927;Consuelo   Pino;26;Viudo; San Félix ; Puerto Ingeniero Ibáñez 
+CLI00928;Samuel   Ortiz;22;Divorciado; Reñaca ; Llifén 
+CLI00929;Belén   Vergara;18;Divorciado; San Fabián de Alico ; Las Cruces 
+CLI00930;Carla   Sepúlveda;45;Casado; Termas del Flaco ;Rivadavia 
+CLI00931;Matilda   Aguilera;46;Divorciado; Llicaldad ; Chile Chico 
+CLI00932;Victoria   Castro;18;Soltero; Pozo Almonte ; Limache 
+CLI00933;Renato   Godoy;45;Divorciado; Castro ; Los Molinos 
+CLI00934;Pía   Molina;45;Casado; Coihaique ; Saltos del Laja 
+CLI00935;Millaray   Donoso;43;Casado; La Serena ; Isla R. Crusoe (Juan Fernández) 
+CLI00936;Valentín   Romero;35;Soltero; Totoralillo ; Ritoque 
+CLI00937;Josefa   Olivares;43;Divorciado; Quillota ; Puerto Aysén 
+CLI00938;Josefa   Riquelme;28;Viudo;El Guayacán ; Caldera 
+CLI00939;Gonzalo   Figueroa;39;Viudo; Talca ; Chile Chico 
+CLI00940;Agustina   Sanhueza;45;Viudo; San José de Maipo ; Coronel 
+CLI00941;Daniela   Zúñiga;21;Casado; Los Vilos ; Molco 
+CLI00942;Millaray   Godoy;33;Viudo; Mamiña ; Tomé 
+CLI00943;Lukas   Contreras;50;Divorciado; Puerto Choque ; Maitencillo 
+CLI00944;Alexis   Flores;32;Divorciado; Pozo Almonte ; Laguna Verde 
+CLI00945;Agustín   Valenzuela;42;Divorciado; Huasco ; Río Bueno 
+CLI00946;Aylin   Poblete;37;Divorciado; Catripulli ; Saltos del Laja 
+CLI00947;Tomás   Torres;29;Soltero; Tinguiririca ; El Molle 
+CLI00948;Catalina   Moreno;28;Casado; Puerto Natales ; Quillón 
+CLI00949;Agustina   Navarro;32;Casado; Puerto Aysén ;Puertecillo 
+CLI00950;Matías   Olivares;27;Casado; La Junta ; Reñaca 
+CLI00951;Manuel   Araya;39;Viudo; Malalcahuello ; Piruquina 
+CLI00952;Amelia   Maldonado;18;Soltero; Futaleufú ; Panimavida 
+CLI00953;Anaís   Alarcón;24;Viudo;Las Trancas (Termas de Chillán) ;Entre Lagos 
+CLI00954;Patricio   Molina;45;Viudo; Huasco ; Tinguiririca 
+CLI00955;Julieta   Vargas;25;Casado; Puerto Ingeniero Ibáñez ; Tinguiririca 
+CLI00956;César   Garrido;18;Soltero; Tinguiririca ; Cucao 
+CLI00957;Sara   Figueroa;40;Soltero; Villarrica ; Pisco Elqui 
+CLI00958;Alonso   Navarrete;38;Viudo; Río Bueno ; El Melocotón 
+CLI00959;Axel   Jara;45;Soltero; Tinguiririca ;La Laguna 
+CLI00960;Sofía   Figueroa;29;Casado;Puerto Saavedra ;Cobquecura 
+CLI00961;Isabella   Sánchez;41;Viudo; San Fabián de Alico ; Pichilemu 
+CLI00962;Franco   Molina;27;Casado; Reñaca ; Cochiguaz 
+CLI00963;Martina   Molina;23;Casado; Punta Choros ; San Fabián de Alico 
+CLI00964;Camilo   Venegas;18;Divorciado; Totoralillo ; Pedregal 
+CLI00965;Bruno   Alarcón;34;Casado; Paihuano ; Punta De Tralca 
+CLI00966;Fabián   Herrera;37;Soltero; Cucao ; Panguipulli 
+CLI00967;Baltazar   Herrera;45;Casado; El Quisco ; Las Cruces 
+CLI00968;Francisco   Carrasco;26;Viudo; Las Cruces ; Puerto Cárdenas 
+CLI00969;Denisse   Godoy;18;Casado; Las Vertientes ; Mehuín 
+CLI00970;Camila   Espinoza;47;Divorciado; Villa Alemana; Punta Choros 
+CLI00971;Aylin   Leiva;34;Casado; Bahia Inglesa ; Quillota 
+CLI00972;Mayra   Moreno;45;Viudo; Cunco ; Las Trincheras 
+CLI00973;Claudio   Garrido;39;Divorciado; Nercón ; Manzanar 
+CLI00974;Montserrat   Alarcón;28;Casado; Caldera ;Rivadavia 
+CLI00975;Javier   Vásquez;26;Soltero; Puente Negro ; Puerto Cisnes 
+CLI00976;Magdalena   Contreras;44;Viudo; Compu ;Lontué 
+CLI00977;César   Pizarro;50;Divorciado; El Médano ; Nercón 
+CLI00978;Alex   Contreras;22;Divorciado; San José de Maipo ; Coihaique 
+CLI00979;Demian   Romero;28;Viudo; Limache ; Santa Olga 
+CLI00980;Guillermo   Escobar;48;Soltero; Futrono ; Chile Chico 
+CLI00981;Thomas   Ortega;23;Viudo; Olmué ; Recinto 
+CLI00982;Jean   Navarrete;37;Divorciado; Carelmapu ; Dichato 
+CLI00983;Mayra   Herrera;26;Casado; Victoria ; Puerto Montt 
+CLI00984;Cristóbal   Contreras;36;Casado; Tongoy ; Castro 
+CLI00985;Amaro   Jiménez;49;Casado; El Quisco ; Viña Del Mar
+CLI00986;Axel   Aguilera;28;Viudo; Quenuir ; San Félix 
+CLI00987;Esperanza   Cáceres;20;Soltero; Panguipulli ; Cochrane 
+CLI00988;Cristián   Orellana;43;Soltero; Reñaca ; Río Bueno 
+CLI00989;Alexandra   Fernández;19;Casado; Colonia Lautaro ; Isla Negra 
+CLI00990;Emilia   Hernández;24;Casado;Alcohuaz ; Ritoque 
+CLI00991;Esperanza   Orellana;37;Viudo; Vicuña ; La Junta 
+CLI00992;Franco   Vergara;18;Divorciado; Coyhaique ; Nercón 
+CLI00993;Bastián   Guerrero;50;Soltero; Tinguiririca ;La Laguna 
+CLI00994;Marcelo   Alvarado;35;Soltero; Santa Cruz ; Los Molinos 
+CLI00995;Guillermo   Silva;42;Soltero; Pucón ; Punta Arenas 
+CLI00996;Lucas   Toro;36;Casado; Villa Alemana; Puerto Fonck 
+CLI00997;Sara   Castro;37;Viudo; Algarrobo ; Juan Lopez 
+CLI00998;Eduardo   Rodríguez;34;Viudo; Curanipe ; Nercón 
+CLI00999;Javiera   Jiménez;18;Divorciado; Mamiña ; Los Vilos 
+CLI01000;Gabriel   Alvarado;47;Viudo; Mamiña ; Santa Olga 
